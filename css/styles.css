@@ -125,7 +125,8 @@ body{
 
     .containerContent{
         position: absolute;
-        margin-top: 15%;
+        margin-top: 5%;
+        margin-left: 10%;
         height: auto;
         width: auto;
         border-radius: 5rem;
@@ -133,6 +134,18 @@ body{
 
     .content{
         padding-top: 20%;
+    }
+
+    .image{
+        width: 100rem;
+        height: 45rem;
+        margin-left: -2rem;
+        margin-top: -2rem;
+    }
+
+    .contentCards{
+        margin-top: -4rem;
+        margin-left: -2rem;
     }
 
     .elements{
@@ -213,6 +226,12 @@ body{
         font-family: 'Ubuntu', sans-serif;
     }
 
+    .btnDetails:hover{
+        color: var(--dark-blue);
+        background-color: var(--aqua-light);
+        transition: 0.5s;
+    }
+
     .titleProduct{
         margin-top: 1rem;
         color: var(--aqua-light);
@@ -226,7 +245,7 @@ body{
 
     .btnAllProducts{
         width: 12rem;
-        margin-top: 7rem;
+        margin-top: 3rem;
         margin-left: 2rem;
         font-weight: medium;
         font-family: 'Ubuntu', sans-serif;
@@ -236,6 +255,12 @@ body{
         border-radius: 10px;
         background-color: var(--dark-blue);
         color: var(--aqua-light);
+    }
+
+    .btnAllProducts:hover{
+        color: var(--dark-blue);
+        background-color: var(--aqua-light);
+        transition: 0.5s;
     }
 
     /* .footer{
@@ -248,21 +273,16 @@ body{
 
 /*--------------------HOME RESPONSIVE--------------------------*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .image{
-        margin-left: 0%;
-
+        margin-left: -12rem;
+        height: 45rem;
     }
 
-    .prueba{
-        width: 10%;
-        
-    }
-
-    .containerContent{
+    .content{
         height: auto;
         width: auto;
-        margin-top: 50%;
+        margin-top: 25%;
     }
 
     .content{
@@ -270,9 +290,23 @@ body{
         margin-left: 0rem;
     }
 
+    .contentCards{
+        width: 1500px;
+        margin-left: -7rem;
+    }
+
     .elements{
         margin-bottom: 0;
         margin-left: 20%;
     }
+
+    .btnAllProducts{
+        margin-left: -15%;
+    }
+
+    .titleCards{
+        margin-left: -15%;
+    }
+
 
 }
