@@ -5,7 +5,7 @@
     --aqua-light: #73e5df;
     --aqua-dark: #209690;
     --dark-grey: #333333;
-    --light-grey: #bdbdbd;
+    --light-grey: #F2F2F2;
     --breakpoint-sm: 600px;
 }
 
@@ -24,10 +24,12 @@ body{
 }
     .header{
         display: block;
+        position: relative;
         height: 3.5rem;
         width: auto;
         background-color: var(--main-bg-color);
         margin-bottom: 3rem;
+        margin-top: 24px;
     }
 
     .logo{
@@ -39,10 +41,18 @@ body{
     }
 
     .headerButtons{
-        padding-top: 0;
-        margin-left: 25rem;
+        /* margin-left: 25rem; */
+        position: absolute;
+        right: 0px;
         color: var(--light-blue);
         font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+
     }
 
     div.container
@@ -54,15 +64,13 @@ body{
         position: relative;
         z-index: 0;
         cursor: pointer;
-        margin: 0px 10px;
-        padding: 7px 10px;
     }
 
     .buttons{
-        width: 6rem;
-        font-size: 16px;
+        width: auto;
         color: var(--light-blue);
         text-decoration: none;
+        text-align: center;
     }
 
     .buttons:hover{
@@ -71,7 +79,7 @@ body{
         transition: 0.5s;
     }
 
-    div.headerButtons a:before, div.headerButtons a:after
+    /* div.headerButtons a:before, div.headerButtons a:after
     {
         position: absolute;
         opacity: 0.5;
@@ -80,7 +88,7 @@ body{
         content: '';
         background: var(--light-blue);
         transition: all 0.3s;
-    }
+    } */
 
     div.headerButtons a:before
     {
@@ -125,15 +133,9 @@ body{
 
     .containerContent{
         position: absolute;
-        margin-top: 5%;
-        margin-left: 10%;
-        height: auto;
-        width: auto;
-        border-radius: 5rem;
-    }
+        left: 30%;
+        top: 35%;
 
-    .content{
-        padding-top: 20%;
     }
 
     .image{
@@ -148,35 +150,47 @@ body{
         margin-left: -2rem;
     }
 
-    .elements{
-        margin-bottom: 0;
-        margin-left: 10rem;
-    }
-
     .title{
-        color: var(--main-bg-color);
-        font-size: 60px;
+        color: var(--light-grey);
+        font-size: 96px;
+        font-family: 'Ubuntu', sans-serif;;
         font-weight: bold;
     }
     .subtitle{
         color: var(--light-blue);
-        font-size: 50px;
-        margin-top: 0;
-        margin-bottom: 1rem;
+        font-size: 64px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
     }
 
     .btnGoToBuy{
-        background-color: var(--light-blue);
-        border: none;
-        padding: 20px 40px;
+
         border-radius: 10px;
-        color: var(--main-bg-color);
-        font-weight: medium;
-        font-size: 16px;
-        margin-top: 1rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: bold;
+        color: var(--light-grey);
+
+        margin-top: 16px;
         transition: 0.2s;
+
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+
+        /* wp-Aqua */
+        background: var(--light-blue);
+        
+        /* Soft Shadow */
+        box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+
     }
 
     .btnGoToBuy:hover{
@@ -185,33 +199,56 @@ body{
         transition: 0.2s;
     }
 
-    .cards{
-
-        position: absolute;
-        grid-column: 50px;
-        width: 1380px;
-        margin: 5rem 0rem;
-        height: 50rem;
-        border-radius: 5rem;
-        text-align: center;
-    }
-
-    .titleCards{
-        padding-top: 3rem;
-        font-size: 60px;
-        color: var(--main-bg-color);
-        font-weight: bold;
-    }
-
     .card{
         background-color: var(--dark-blue);
-        height: 25rem;
-        width: 15rem;
-        margin-left: 5rem;
-        margin-top: 6rem;
+        height: 370px;
+        width: 263px;
         border-radius: 50px;
     }
 
+    .cards{
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        border-radius: 5rem;
+    }
+
+    .card-paragraph{
+        margin-top: 24px;
+        color: var(--light-grey);
+        font-family: 'Oxygen', sans-serif;;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+
+    .card-title{
+        font-size: 36px;
+        font-family:'Ubuntu', sans-serif;
+        color: var(--aqua-light);
+
+    }
+
+    .cardContainer{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+
+    .titleCards{
+        font-family: 'Ubuntu', sans-serif;
+        transform: translateY(10px);
+        font-size: 96px;
+        color: var(--main-bg-color);
+        font-weight: bold;
+        margin-top: 66px;
+    }
+
+ 
     .btnDetails{
         width: 8rem;
         background-color: var(--light-blue);
@@ -245,8 +282,7 @@ body{
 
     .btnAllProducts{
         width: 12rem;
-        margin-top: 3rem;
-        margin-left: 2rem;
+        margin-top: 24px;
         font-weight: medium;
         font-family: 'Ubuntu', sans-serif;
         font-size: 20px;
@@ -261,6 +297,10 @@ body{
         color: var(--dark-blue);
         background-color: var(--aqua-light);
         transition: 0.5s;
+    }
+
+    .our-products-content{
+        transform: translateY(-118px);
     }
 
     /* .footer{
@@ -304,6 +344,10 @@ body{
         margin-left: -15%;
     }
 
+    .text-center{
+        width: 100%;
+    }
+    
     .titleCards{
         margin-left: -15%;
     }
