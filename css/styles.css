@@ -79,7 +79,7 @@ body{
         transition: 0.5s;
     }
 
-    /* div.headerButtons a:before, div.headerButtons a:after
+    div.headerButtons a:before, div.headerButtons a:after
     {
         position: absolute;
         opacity: 0.5;
@@ -88,7 +88,7 @@ body{
         content: '';
         background: var(--light-blue);
         transition: all 0.3s;
-    } */
+    }
 
     div.headerButtons a:before
     {
@@ -314,9 +314,108 @@ body{
 /*--------------------HOME RESPONSIVE--------------------------*/
 
 @media only screen and (max-width: 576px) {
+
+    /*--------------------HEADER--------------------------*/
+
+    .headerButtons{
+        display: none;
+    }
+
+    .title{
+        color: var(--light-grey);
+        font-size: 37px;
+        font-family: 'Ubuntu', sans-serif;;
+        font-weight: bold;
+    }
+    .subtitle{
+        color: var(--light-blue);
+        font-size: 24px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+    }
+
+    .btnGoToBuy{
+
+        border-radius: 10px;
+        color: var(--light-grey);
+
+        margin-top: 16px;
+        transition: 0.2s;
+
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+
+        /* wp-Aqua */
+        background: var(--light-blue);
+        
+        /* Soft Shadow */
+        box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+
+    }
+
     .image{
         margin-left: -12rem;
-        height: 45rem;
+        height: 210px;
+    }
+
+    
+    .card{
+        background-color: var(--dark-blue);
+        height: 203px;
+        width: 146px;
+        border-radius: 27px;
+        z-index: 1;
+    }
+
+    .card-title{
+        font-size: 20px;
+        font-family:'Ubuntu', sans-serif;
+        color: var(--aqua-light);
+
+    }
+    
+    .card-1, .card-3{
+        background-color: var(--dark-blue);
+        height: 156px;
+        width: 111px;
+        border-radius: 21px;
+        transform: translateY(24px);
+    
+    }
+    .card-1 h5, .card-3 h5{
+        font-size: 15px;
+    }
+
+
+    .cardContainer{
+        /* position: absolute; */
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 120%;
+        padding-left: 0px;
+        padding-right: 0px;
+        left: -12%;
+    }
+
+    .card-paragraph{
+        margin-top: 24px;
+        color: var(--light-grey);
+        font-family: 'Oxygen', sans-serif;;
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .content{
@@ -325,14 +424,20 @@ body{
         margin-top: 25%;
     }
 
-    .content{
-        padding-left: 0rem;
-        margin-left: 0rem;
+    .contentCards{
+        
     }
 
-    .contentCards{
-        width: 1500px;
-        margin-left: -7rem;
+    .containerContent{
+        position: absolute;
+        left: 0%;
+        top: 15%;
+    }
+
+    
+
+    .btnAllProducts{
+        margin-left: -15%;
     }
 
     .elements{
@@ -340,8 +445,8 @@ body{
         margin-left: 20%;
     }
 
-    .btnAllProducts{
-        margin-left: -15%;
+    .our-products-content{
+        transform: translateY(-86px);
     }
 
     .text-center{
@@ -349,7 +454,8 @@ body{
     }
     
     .titleCards{
-        margin-left: -15%;
+        font-size: 40px;
+        margin-top: 96px;
     }
 
 
