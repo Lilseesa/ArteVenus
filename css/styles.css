@@ -200,11 +200,23 @@ body{
     }
 
     .card{
-        background-color: var(--dark-blue);
+        background-color: rgba(0, 0, 0, 0);
+        position: relative;
+        display: flex;
+        align-items: center;
         height: 370px;
         width: 263px;
         border-radius: 50px;
+        box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
     }
+
+    .card img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+
 
     .cards{
         position: absolute;
@@ -227,6 +239,8 @@ body{
         font-size: 36px;
         font-family:'Ubuntu', sans-serif;
         color: var(--aqua-light);
+        position: absolute;
+        top: 16px;
 
     }
 
@@ -334,6 +348,55 @@ body{
         font-weight: bold;
     }
 
+    .card-title{
+        font-size: 24px;
+        font-family:'Ubuntu', sans-serif;
+        color: var(--light-grey);
+        position: absolute;
+        top: 16px;
+    }
+
+
+    .cardContainer{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 120%;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .card-paragraph{
+        margin-top: 24px;
+        color: var(--light-grey);
+        font-family: 'Oxygen', sans-serif;;
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .content{
+        height: auto;
+        width: auto;
+        margin-top: 25%;
+    }
+
+    .contentCards{
+        display: none; 
+    }
+
+    .containerContent{
+        position: absolute;
+        left: 0%;
+        top: 15%;
+    }
+
+    .btnAllProducts{
+        margin-left: -15%;
+    }
+
     .btnGoToBuy{
 
         border-radius: 10px;
@@ -362,91 +425,62 @@ body{
         box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
 
     }
-
-    .image{
-        margin-left: -12rem;
-        height: 210px;
-    }
-
     
-    .card{
-        background-color: var(--dark-blue);
-        height: 203px;
-        width: 146px;
-        border-radius: 27px;
-        z-index: 1;
-    }
-
-    .card-title{
-        font-size: 20px;
-        font-family:'Ubuntu', sans-serif;
-        color: var(--aqua-light);
-
-    }
-    
-    .card-1, .card-3{
-        background-color: var(--dark-blue);
-        height: 156px;
-        width: 111px;
-        border-radius: 21px;
-        transform: translateY(24px);
-    
-    }
-    .card-1 h5, .card-3 h5{
-        font-size: 15px;
-    }
-
-
-    .cardContainer{
-        /* position: absolute; */
-        margin-top: 24px;
-        display: flex;
-        justify-content: space-evenly;
-        width: 120%;
-        padding-left: 0px;
-        padding-right: 0px;
-        left: -12%;
-    }
-
-    .card-paragraph{
-        margin-top: 24px;
-        color: var(--light-grey);
-        font-family: 'Oxygen', sans-serif;;
-        font-weight: bold;
-        font-size: 16px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .content{
-        height: auto;
-        width: auto;
-        margin-top: 25%;
-    }
-
-    .contentCards{
-        
-    }
-
-    .containerContent{
-        position: absolute;
-        left: 0%;
-        top: 15%;
-    }
-
-    
-
-    .btnAllProducts{
-        margin-left: -15%;
-    }
-
     .elements{
         margin-bottom: 0;
         margin-left: 20%;
     }
 
+    
+    .image{
+        margin-left: -12rem;
+        height: 210px;
+    }
+
+    .img-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: multiply;
+        border-radius: 27px;
+    }
+
     .our-products-content{
         transform: translateY(-86px);
+    }
+
+    .swiper-container{
+        width: 100%;
+        height: 300px;
+    }
+
+    .swiper-wrapper{
+        align-items: center;
+    }
+
+    .swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 250px;
+        width: 200px;
+        border-radius: 27px;
+    }
+
+    .swiper-slide img {
+        height: 250px;
+        width: 200px;
+        border-radius: 27px;
+        object-fit: cover;
+      
+    }
+
+    .swiper-slide-active {
+        transform: scale(1.2);
+        transition: .4s;
     }
 
     .text-center{
