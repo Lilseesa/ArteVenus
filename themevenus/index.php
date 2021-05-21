@@ -1,4 +1,22 @@
-<!DOCTYPE html>
+<?php
+/**
+ * The main template file
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage 
+ * @since 
+ */
+
+get_header();
+
+if ( have_posts() ) {
+
+	// Load posts loop.
+	while ( have_posts() ) {
+		the_post();
+		?>
+        <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -21,24 +39,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="wp-content\themes\themevenus\style.css">
     </head>  
-
-    <header class="header container">
-        <div class="logo">
-            <a class="buttons">Logo Impsum</a>
-        </div>
-
-        <div class="headerButtons">
-            <a class="buttons" href="https://google.com"> Home </a>
-            <a class="buttons" href="https://google.com"> Products </a>
-            <a class="buttons" href="https://google.com"> About Us </a>
-            <a class="buttons" href="https://google.com"> Contact Us </a>
-        </div>
-    </header>
-
-    <body>
-
+        <body>
             <div class="containerContent">
                 <div class="content">
                     <H1 class="elements title">Handmade</H1>
@@ -48,7 +51,7 @@
             </div>
 
             <div class="text-center">
-                <img class="img-fluid" src="./images/Trapezoid_Image.svg" alt="">
+                <img class="img-fluid" src="wp-content\themes\themevenus\images\Trapezoid_Image.svg" alt="">
             </div>
 
             <div id="ourProducts" class="our-products-content">
@@ -60,17 +63,17 @@
                             <!-- TODO: arreglar los title de las cards en desk -->
                             <!-- TODO: mejorar el overlay para aplicarlo en todas las cards -->
                             <h5 class="card-title">Product 1</h5>
-                            <img src="./images/placeholder (1).jpg" alt="">
+                            <img src="wp-content\themes\themevenus\images\placeholder (1).jpg" alt="">
                         </div>
                         <div class="card card-2">
                             <div class="img-overlay"></div>
                             <h5 class="card-title">Product 2</h5>
-                            <img src="./images/placeholder (2).jpg" alt="">
+                            <img src="wp-content\themes\themevenus\images\placeholder (2).jpg" alt="">
                         </div>
                         <div class="card card-3">
                             <div class="img-overlay"></div>
                             <h5 class="card-title">Product 3</h5>
-                            <img src="./images/placeholder (3).jpg" alt="">
+                            <img src="wp-content\themes\themevenus\images\placeholder (3).jpg" alt="">
                         </div>
                     </div>
                     <div id="cardContainerSwiper" class="cardContainer swiper-container mySwiper">
@@ -78,17 +81,17 @@
                             <div class="swiper-slide">
                                 <div class="img-overlay"></div>
                                 <h5 class="card-title">Product 1</h5>
-                                <img src="./images/placeholder (1).jpg" alt="">
+                                <img src="wp-content\themes\themevenus\images\placeholder (1).jpg" alt="">
                             </div>
                             <div class="swiper-slide">
                                 <div class="img-overlay"></div>
                                 <h5 class="card-title">Product 2</h5>
-                                <img src="./images/placeholder (2).jpg" alt="">
+                                <img src="wp-content\themes\themevenus\images\placeholder (2).jpg" alt="">
                             </div>
                             <div class="swiper-slide">
                                 <div class="img-overlay"></div>
                                 <h5 class="card-title">Product 3</h5>
-                                <img src="./images/placeholder (3).jpg" alt="">
+                                <img src="wp-content\themes\themevenus\images\placeholder (3).jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -101,30 +104,22 @@
 
                 </div>
                 <!-- //TODO: Arreglar el trapezoid para iphone -->
-                <img id="TL" class="contentCards" src="./images/Trapezoid_Left.svg" alt="">
+                <img id="TL" class="contentCards" src="wp-content\themes\themevenus\images\Trapezoid_Left.svg" alt="">
             </div>
-        
+        </body>
 
-    </body>
-    
-    <!-- <footer class="footer">
-        <div class="containerFooter">
-            <div class="logo">
-                <a class="buttons">Logo Impsum</a>
-            </div>
-    
-            <div class="container headerButtons">
-                <a class="buttons" href="https://google.com"> Home </a>
-                <a class="buttons" href="https://google.com"> Products </a>
-                <a class="buttons" href="https://google.com"> About Us </a>
-                <a class="buttons" href="https://google.com"> Contact Us </a>
-            </div>
-        </div>
-    </footer> -->
+        <!--TODO: arreglar los script para wordpress-->
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="wp-content\themes\themevenus\js\main.js"></script>
+        <?php
+	}
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+} else {
 
+	// If no content, include the "No posts found" template.
+	?> <p>Lo siento, no hemos encontrado ningún post.</p> <?php
 
-</html>
+}
+
+//get_footer();
