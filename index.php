@@ -107,12 +107,9 @@ if ( have_posts() ) {
                 <img id="TL" class="contentCards" src="wp-content\themes\themevenus\images\Trapezoid_Left.svg" alt="">
             </div>
         </body>
- 
-        <?php 
-            get_footer(); 
-        ?>
 
         <?php
+        get_footer(); 
 	}
 
 } else {
