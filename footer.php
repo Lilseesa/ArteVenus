@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after.
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * @link 
  *
  * @package WordPress
  * @subpackage 
@@ -15,8 +15,6 @@
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->
-
-	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 
