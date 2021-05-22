@@ -110,7 +110,7 @@ if ( have_posts() ) {
 
         
         <?php
-        wp_footer();
+        get_footer();
 	}
 
 } else {
