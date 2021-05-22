@@ -106,11 +106,10 @@ if ( have_posts() ) {
                 <!-- //TODO: Arreglar el trapezoid para iphone -->
                 <img id="TL" class="contentCards" src="wp-content\themes\themevenus\images\Trapezoid_Left.svg" alt="">
             </div>
+            <?php get_footer(); ?>
         </body>
-
-        
+ 
         <?php
-        get_footer();
 	}
 
 } else {
