@@ -46,7 +46,7 @@
 	</div>
 
 	<div class="headerButtons">
-		<a class="buttons" href="https://google.com"> Home </a>
+		<a class="buttons" href="index.php"> Home </a>
 		<a class="buttons" href="https://google.com"> Products </a>
 		<a class="buttons" href="https://google.com"> About Us </a>
 		<a class="buttons" href="https://google.com"> Contact Us </a>
