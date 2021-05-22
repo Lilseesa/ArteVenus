@@ -12,6 +12,10 @@
  */
 
 ?>
+
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -33,12 +37,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="<?php get_stylesheet_directory_uri().?>style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>wp-content\themes\themevenus\style.css" type="text/css" media="all" />
 	<?php wp_head();?>
 </head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
 
 <header class="header container">
 	<div class="logo">
