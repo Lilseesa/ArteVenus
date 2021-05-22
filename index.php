@@ -109,10 +109,12 @@ if ( have_posts() ) {
         </body>
 
         <!--TODO: arreglar los script para wordpress-->
-        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <!--<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="wp-content\themes\themevenus\js\main.js"></script>
+        <script src="wp-content\themes\themevenus\js\main.js"></script>-->
+
         <?php
+        get_footer();
 	}
 
 } else {
