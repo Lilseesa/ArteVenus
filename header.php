@@ -12,10 +12,6 @@
  */
 
 ?>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -40,6 +36,9 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>wp-content\themes\themevenus\style.css" type="text/css" media="all" />
 	<?php wp_head();?>
 </head>
+
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 
 <header class="header container">
 	<div class="logo">
