@@ -8,14 +8,7 @@
  * @since 
  */
 
-get_header();
-
-if ( have_posts() ) {
-
-	// Load posts loop.
-	while ( have_posts() ) {
-		the_post();
-		?>
+get_header(); ?>
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -116,13 +109,3 @@ if ( have_posts() ) {
 
         <?php
         get_footer();
-	}
-
-} else {
-
-	// If no content, include the "No posts found" template.
-	?> <p>Lo siento, no hemos encontrado ningún post.</p> <?php
-
-}
-
-//get_footer();
