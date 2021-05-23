@@ -48,7 +48,7 @@
 	<div class="headerButtons">
 		<a class="buttons" href="index.php"> Home </a>
 		<a class="buttons" href="https://google.com"> Products </a>
-		<a class="buttons" href="about.php"> About Us </a>
+		<a class="buttons" href="<?php get_stylesheet_directory_uri().'about.php'?>"> About Us </a>
 		<a class="buttons" href="contact.php"> Contact Us </a>
 	</div>
 </header>
