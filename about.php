@@ -16,7 +16,15 @@ get_header();
     while ( have_posts() ) {
         the_post();
         ?>
-    <!DOCTYPE html>
+        
+
+        <?php
+	}
+
+} else {
+
+	// If no content, include the "No posts found" template.
+	?> <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -66,14 +74,6 @@ get_header();
             <img class="img-fluid" src="images/Trapezoid_About.svg" alt=""> 
         </div>
 
-    </body>
-
-    <?php
-	}
-
-} else {
-
-	// If no content, include the "No posts found" template.
-	?> <p>Lo siento, no hemos encontrado ningún post.</p> <?php
+    </body> <?php
 
 }
