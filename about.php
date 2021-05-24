@@ -10,6 +10,12 @@
 
 get_header();?>
 
+<?php
+
+//loop
+
+while( have_posts() ) : the_post(); ?>
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -58,4 +64,5 @@ get_header();?>
             <img class="img-fluid" src="images/Trapezoid_About.svg" alt=""> 
         </div>
 
+        <?php endwhile; ?>
     </body>
