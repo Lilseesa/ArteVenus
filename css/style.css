@@ -79,17 +79,6 @@ body{
         transition: 0.5s;
     }
 
-    /* div.headerButtons a:before, div.headerButtons a:after
-    {
-        position: absolute;
-        opacity: 0.5;
-        height: 100%;
-        width: 2px;
-        content: '';
-        background: var(--light-blue);
-        transition: all 0.3s;
-    } */
-
     div.headerButtons a:before
     {
         left: 0px;
