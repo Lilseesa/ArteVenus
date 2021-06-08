@@ -1,0 +1,34 @@
+{
+  "name": "durpal_theme",
+  "version": "1.0.0",
+  "description": "Creating a drupal theme",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Alexis Fallas, Svenn Seemann",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.9.2",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^7.0.3",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.19",
+    "node-sass": "^6.0.0",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.2.15",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

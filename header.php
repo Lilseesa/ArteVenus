@@ -17,30 +17,30 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+	<title>Si funca</title>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<?php wp_head();?>
 
 	<!-- Swiper -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-	<!-- Boostrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
 	<!-- CSS -->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>wp-content\themes\themevenus\css\style.css" type="text/css" media="all" />
-	<?php wp_head();?>
+	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<header class="header container">
+<!-- <header class="header container">
 	<div class="logo">
 		<a class="buttons">Logo Impsum</a>
 	</div>
@@ -51,5 +51,25 @@
 		<a class="buttons" href="about"> About Us </a>
 		<a class="buttons" href="contact"> Contact Us </a>
 	</div>
-</header>
+</header> -->
+
+<!-- Menú -->
+<nav class="container navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo Ipsum</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		
+		<div class="navbar-nav ms-auto">
+		<?php wp_nav_menu( array( 'menu_class' => 'nav', 'container' => 'a', ));?>
+			<!-- <a class="nav-link active botton-text" aria-current="page" href="#">Home</a>
+			<a class="nav-link botton-text" href="">Products</a>
+			<a class="nav-link botton-text" href="about-us">About Us</a>
+			<a class="nav-link botton-text" href="contact-us">Contact Us</a> -->
+		</div>
+    </div>
+  </div>
+</nav>
 	
