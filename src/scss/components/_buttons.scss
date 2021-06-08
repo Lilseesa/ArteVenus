@@ -16,7 +16,9 @@ $bold: 700;
     align-items: center;
     padding: 8px 16px;
     color: $aqua-dark !important;
+    text-decoration: none;
 }
+
 @mixin button-rounded-filled {
     font-family: 'Ubuntu', sans-serif;
     font-weight: $medium;
@@ -33,4 +35,42 @@ $bold: 700;
 
     background: $aqua;
     border-radius: $border-button-radius-phone;
+}
+
+.btn-buy{
+
+    border-radius: 10px;
+    color: var($marmol);
+
+    margin-top: 16px;
+    transition: 0.2s;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    border-style: none;
+
+    /* wp-Aqua */
+    background: var($aqua-light-plus);
+    
+    /* Soft Shadow */
+    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-buy:hover{
+    color: $aqua-dark;
+    background-color: $marmol;
+    transition: 0.2s;
 }

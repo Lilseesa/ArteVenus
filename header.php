@@ -63,7 +63,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		
 		<div class="navbar-nav ms-auto">
-		<?php wp_nav_menu( array( 'menu_class' => 'nav', 'container' => 'a', ));?>
+		<?php wp_nav_menu( array( 'menu_class' => 'nav', 'container' => 'a'));?>
 			<!-- <a class="nav-link active botton-text" aria-current="page" href="#">Home</a>
 			<a class="nav-link botton-text" href="">Products</a>
 			<a class="nav-link botton-text" href="about-us">About Us</a>

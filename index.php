@@ -24,7 +24,7 @@ get_header(); ?>
                     <div class="col-lg-6 position-absolute top-50  ms-5">
                         <H1 class="title">Handmade</H1>
                         <h2 class="subtitle">souvernir</h2>
-                        <button type="button" class="btn btnBuy button-rounded-filled">Start Buying</button>
+                        <button type="button" class="btn-buy button-rounded-filled">Start Buying</button>
                     </div>
                     <!-- Title, Subtitle, CTA -->
                 </div>

@@ -62,43 +62,6 @@ body, html {
     color: $marmol;
 }
 
-.btnBuy{
-
-    border-radius: 10px;
-    color: var($marmol);
-
-    margin-top: 16px;
-    transition: 0.2s;
-
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-
-    /* wp-Aqua */
-    background: var($aqua-light-plus);
-    
-    /* Soft Shadow */
-    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
-
-}
-
-.btnBuy:hover{
-    color: $marmol;
-    background-color: var($aqua-dark);
-    border-color: var($aqua-light-plus);
-    transition: 0.2s;
-}
-
 // Our Products Section End
 
 // Home End
