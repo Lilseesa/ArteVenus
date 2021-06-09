@@ -1,0 +1,22 @@
+
+ .img-fluid{
+    width: 100% !important;
+    height: 210px !important;
+    object-fit: cover !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-fluid{
+        width: 100% !important;
+        height: 493px !important;
+        object-fit: cover !important;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .img-fluid{
+        width: 100% !important;
+        height: 580px !important;
+        object-fit: cover !important;
+    }
+}
+

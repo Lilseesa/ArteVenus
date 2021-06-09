@@ -32,10 +32,10 @@ get_header(); ?>
             <!-- Landing Image Section -->
 
              <!-- Our Products Section -->
-            <div class="row p-5 mt-5" style="background:#209690">
+            <div class="row p-5 mt-5 hm_boder-radius-section" style="background:#209690">
                 <div class="col-lg-12">
                     <!-- Our Products Title -->
-                    <h1 class="title text-center py-5"> Our products</h1>
+                    <h1 class="title text-center my-2 py-2"> Our products</h1>
                     <!-- Our Products Title -->
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <!-- Product Card -->
@@ -44,11 +44,8 @@ get_header(); ?>
                                 <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
                                 <div class="d-flex flex-column pt-2">
                                     <p class="card-info-text mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <div class="d-flex ms-auto">
-                                        <div class="d-flex flex-row me-4">
-                                        
-                                        </div>
-                                        <button type="button" class="btn button-rounded-filled me-3">Start Buying</button>
+                                    <div class="d-flex mx-auto">
+                                        <button type="button" class="btn-buy button-rounded-filled">Buy Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -60,11 +57,8 @@ get_header(); ?>
                                 <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
                                 <div class="d-flex flex-column pt-2">
                                     <p class="card-info-text mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <div class="d-flex ms-auto">
-                                        <div class="d-flex flex-row">
-                                           
-                                        </div>
-                                        <button type="button" class="btn button-rounded-filled me-3">Start Buying</button>
+                                    <div class="d-flex mx-auto">
+                                        <button type="button" class="btn-buy button-rounded-filled">Buy Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -76,11 +70,8 @@ get_header(); ?>
                                 <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
                                 <div class="d-flex flex-column pt-2">
                                     <p class="card-info-text mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <div class="d-flex ms-auto">
-                                        <div class="d-flex flex-row">
-                                            
-                                        </div>
-                                        <button type="button" class="btn button-rounded-filled me-3">Start Buying</button>
+                                    <div class="d-flex mx-auto">
+                                        <button type="button" class="btn-buy button-rounded-filled">Buy Now </button>
                                     </div>
                                 </div>
                             </div>
