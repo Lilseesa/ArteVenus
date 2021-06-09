@@ -26,13 +26,13 @@ $bold: 700;
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
-    color: $marmol;
+    color: $marmol !important;
 
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    background: $aqua;
+    background: $aqua !important;
     border-radius: $border-button-radius-phone;
 }
 
@@ -44,14 +44,14 @@ $bold: 700;
     justify-content: center;
     align-items: center;
     padding: 8px 32px;
-    color: $aqua-dark;
+    color: $aqua-dark !important;
     margin: 1rem;
 
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    background: $marmol;
+    background: $marmol !important;
 
     border-style: none;
 }

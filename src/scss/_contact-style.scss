@@ -17,17 +17,8 @@ body, html {
 /*--------------------HOME--------------------------*/
 
 .ct_content{
-    padding: 5rem;
+    padding: 1rem;
     background-color: $aqua-dark;
-    border-radius: 45px;
-}
-
-.ct_elements{
-    @include h1-title-desktop;
-}
-
-.ct_contactUs{
-    @include h2-subtitle-desktop;
 }
 
 .ct_containerText{
@@ -51,10 +42,9 @@ body, html {
 }
 
 .ct_formContainer{
-    padding: 5rem;
+    margin: 2rem -1rem 0rem -1rem;
+    padding: 0.5rem;
     background-color: $aqua-dark;
-    border-radius: 45px;
-    margin: 2rem 0rem;
 }
 
 .form-group{
@@ -78,6 +68,7 @@ body, html {
     line-height: 1.67;
     letter-spacing: normal;
     color: $marmol;
+    flex-direction: row;
 }
 
 #inputName{
@@ -93,8 +84,48 @@ body, html {
 #inputMessage{
     font-family: 'Ubuntu', sans-serif;
     border-radius: 10px;
+    padding-bottom: 150px;
 }
 
-.ct_btn{
+.button-send{
     @include button-rounded-filled-v2;
+}
+
+.button-send:hover{
+    box-shadow: 1px 1px 10px #000000;
+}
+
+.hm_boder-radius-section{
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hm_boder-radius-section{
+        border-radius: 50px;
+    }
+
+    .ct_content{
+        padding: 2rem;
+    }
+
+    .ct_formContainer{
+        padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hm_boder-radius-section{
+        border-radius: 50px;
+    }
+
+    .ct_content{
+        padding: 5rem;
+    }
+
+    .ct_formContainer{
+        display: flex;
+        flex-direction: row;
+        padding: 5rem;
+        margin: 2rem 0rem;
+    }
 }

@@ -20,17 +20,17 @@ while( have_posts() ) : the_post(); ?>
 
   <div class="container">
     <div class="row ct_mainTitles">
-      <h1 class="ct_contactUs ct_mainTitle">Contact</h1>
-      <h2 class="ct_contactUs ct_mainSubtitle">us</h2>
+      <h1 class="ct_contactUs ct_mainTitle subtitle">Contact</h1>
+      <h2 class="ct_contactUs ct_mainSubtitle subtitle">us</h2>
     </div>
 
-    <div class="row mt-5 ct_content" >
+    <div class="row mt-5 ct_content hm_boder-radius-section" >
       <div class="row">
           <!-- Contact us Title -->
 
           <div class="ct_containerHeader">
-            <h1 class="ct_elements ct_title">Tell</h1>
-            <h2 class="ct_elements ct_subtitle">us</h2>  
+            <h1 class="ct_elements ct_title title">Tell</h1>
+            <h2 class="ct_elements ct_subtitle title">us</h2>  
           </div>
 
       </div>
@@ -43,14 +43,14 @@ while( have_posts() ) : the_post(); ?>
       </div>
     </div>
 
-    <div class="ct_formContainer" >
+    <div class="ct_formContainer hm_boder-radius-section" >
       <form class="container ct_form">
         <div class="form-row">
-            <div class="form-group col-md-4">
+            <div class="form-group row-md-6">
                 <label for="inputName">Your Name</label>
                 <input type="email" class="form-control" id="inputName" placeholder="Write your name">
             </div>
-            <div class="form-group col-md-4">
+            <div class="form-group row-md-6">
                 <label for="inputEmail">Email</label>
                 <input type="text" class="form-control" id="inputEmail" placeholder="Write an Email">
             </div>
@@ -60,7 +60,7 @@ while( have_posts() ) : the_post(); ?>
           </div>
 
           <div class="text-center">
-                <button type="submit" class="btn btn-primary ct_btn">Send</button>
+                <button type="submit" class="btn button-send">Send</button>
           </div>
         </div>
       </form> 

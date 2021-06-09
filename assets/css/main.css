@@ -7638,7 +7638,7 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
-    border-radius: 50px; } }
+    border-radius: 40px; } }
 
 .card-img-top {
   border-top-left-radius: 25px !important;
@@ -7784,7 +7784,7 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
-    border-radius: 50px; } }
+    border-radius: 40px; } }
 
 .btn-buy {
   border-radius: 10px;
@@ -7816,7 +7816,7 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
-    border-radius: 50px; } }
+    border-radius: 40px; } }
 
 * {
   font-family: 'Ubuntu', sans-serif; }
@@ -7922,11 +7922,11 @@ body, html {
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
-  color: #f2f2f2;
+  color: #f2f2f2 !important;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  background: #38BEB7;
+  background: #38BEB7 !important;
   border-radius: 10px; }
 
 .border-image-radius {
@@ -7995,7 +7995,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
-    border-radius: 50px; } }
+    border-radius: 40px; } }
 
 .card-img-top {
   border-top-left-radius: 25px !important;
@@ -8141,7 +8141,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
-    border-radius: 50px; } }
+    border-radius: 40px; } }
 
 .btn-buy {
   border-radius: 10px;
@@ -8173,7 +8173,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
-    border-radius: 50px; } }
+    border-radius: 40px; } }
 
 * {
   font-family: 'Ubuntu', sans-serif; }
@@ -8315,27 +8315,8 @@ body, html {
 
 /*--------------------HOME--------------------------*/
 .ct_content {
-  padding: 5rem;
-  background-color: #209690;
-  border-radius: 45px; }
-
-.ct_elements {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 56px;
-  letter-spacing: 0.01em;
-  color: #f2f2f2 !important; }
-
-.ct_contactUs {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 80px;
-  letter-spacing: 0.05em;
-  color: #38BEB7 !important; }
+  padding: 1rem;
+  background-color: #209690; }
 
 .ct_containerText {
   font-family: Oxygen;
@@ -8355,10 +8336,9 @@ body, html {
   text-align: right; }
 
 .ct_formContainer {
-  padding: 5rem;
-  background-color: #209690;
-  border-radius: 45px;
-  margin: 2rem 0rem; }
+  margin: 2rem -1rem 0rem -1rem;
+  padding: 0.5rem;
+  background-color: #209690; }
 
 .form-group {
   font-family: Oxygen;
@@ -8379,7 +8359,8 @@ body, html {
   font-style: normal;
   line-height: 1.67;
   letter-spacing: normal;
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  flex-direction: row; }
 
 #inputName {
   font-family: 'Ubuntu', sans-serif;
@@ -8391,9 +8372,10 @@ body, html {
 
 #inputMessage {
   font-family: 'Ubuntu', sans-serif;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding-bottom: 150px; }
 
-.ct_btn {
+.button-send {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   display: flex;
@@ -8401,13 +8383,38 @@ body, html {
   justify-content: center;
   align-items: center;
   padding: 8px 32px;
-  color: #209690;
+  color: #209690 !important;
   margin: 1rem;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  background: #f2f2f2;
+  background: #f2f2f2 !important;
   border-style: none; }
+
+.button-send:hover {
+  box-shadow: 1px 1px 10px #000000; }
+
+.hm_boder-radius-section {
+  border-radius: 0px; }
+
+@media only screen and (min-width: 768px) {
+  .hm_boder-radius-section {
+    border-radius: 50px; }
+  .ct_content {
+    padding: 2rem; }
+  .ct_formContainer {
+    padding: 2rem; } }
+
+@media only screen and (min-width: 1280px) {
+  .hm_boder-radius-section {
+    border-radius: 50px; }
+  .ct_content {
+    padding: 5rem; }
+  .ct_formContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    margin: 2rem 0rem; } }
 
 :root {
   --main-bg-color: #f2f2f2;
