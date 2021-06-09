@@ -10,11 +10,11 @@
 
 get_header();?>
 
-<?php
+<!-- <?php
 
 //loop
 
-while( have_posts() ) : the_post(); ?>
+while( have_posts() ) : the_post(); ?> -->
 
 <body>
 
@@ -70,3 +70,6 @@ while( have_posts() ) : the_post(); ?>
 
     <?php endwhile; ?>
 </body>
+<?php
+  get_footer();
+?>
