@@ -40,19 +40,6 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<!-- <header class="header container">
-	<div class="logo">
-		<a class="buttons">Logo Impsum</a>
-	</div>
-
-	<div class="headerButtons">
-		<a class="buttons" href="index"> Home </a>
-		<a class="buttons" href="https://google.com"> Products </a>
-		<a class="buttons" href="about"> About Us </a>
-		<a class="buttons" href="contact"> Contact Us </a>
-	</div>
-</header> -->
-
 <!-- Menú -->
 <nav class="container navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
@@ -61,14 +48,20 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		
-		<div class="navbar-nav ms-auto">
-		<?php wp_nav_menu( array( 'menu_class' => 'nav', 'container' => 'a'));?>
-			<!-- <a class="nav-link active botton-text" aria-current="page" href="#">Home</a>
-			<a class="nav-link botton-text" href="">Products</a>
-			<a class="nav-link botton-text" href="about-us">About Us</a>
-			<a class="nav-link botton-text" href="contact-us">Contact Us</a> -->
-		</div>
+		<?php 
+			wp_nav_menu( 
+				array( 
+					'theme_location' 		=> 'header-menu',
+					'menu_class'           	=> 'navbar-nav',
+					'container'				=> 'div',
+					'container_class'		=> 'ms-auto',
+				)
+			);
+		?>
+		<!-- <a class="nav-link active botton-text" aria-current="page" href="#">Home</a>
+		<a class="nav-link botton-text" href="">Products</a>
+		<a class="nav-link botton-text" href="about-us">About Us</a>
+		<a class="nav-link botton-text" href="contact-us">Contact Us</a> -->
     </div>
   </div>
 </nav>

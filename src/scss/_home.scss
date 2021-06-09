@@ -18,8 +18,9 @@ body, html {
 // Header
 // Here are all the classes that is used in header
 
-.botton-text{
+.navbar-nav li a{
     @include button-text;
+    text-decoration: none !important;
 }
 
 // Header End
