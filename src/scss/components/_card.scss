@@ -12,9 +12,98 @@
 
     /* Soft Shadow */
     filter: drop-shadow(0px 22px 40px rgba(0, 0, 0, 0.1));
-    border-radius: 25px;
-    background: $dark-blue;
+    border-radius: 25px !important;
+    
 }
+
+@mixin card-title-desktop{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 36px;
+    line-height: 24px;
+    color: $marmol !important;
+}
+@mixin card-title-phone{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 24px;
+    line-height: 18px;
+    color: $marmol !important;
+}
+@mixin card-price-desktop{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: $marmol !important;
+}
+@mixin card-price-phone{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: $marmol !important;
+}
+
+@mixin card-info-text{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 13px;
+    line-height: 16px;
+    color:$aqua-dark;
+
+}
+
+.card-img-top{
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+}
+
+.card{
+    border: none;
+    @include card-frame;  
+}
+.card-price{
+    @include card-price-phone
+}
+.card-title{
+    @include card-title-phone;
+}
+.card-info-text{
+    @include card-info-text;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-price{
+        @include card-price-phone
+    }
+    .card-title{
+        @include card-title-phone;
+    }
+    .card-info-text{
+        @include card-info-text;
+    }
+    
+}
+@media only screen and (min-width: 1024px) {
+    .card-price{
+        @include card-price-desktop;
+    }
+    .card-title{
+        @include card-title-desktop;
+    }
+    .card-info-text{
+        @include card-info-text;
+    }
+    
+}
+
+
 
 
 

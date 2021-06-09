@@ -19,6 +19,8 @@ $bold: 700;
     align-items: center;
     padding: 8px 16px;
     color: $aqua-dark !important;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 @mixin h1-title-desktop {
@@ -42,6 +44,26 @@ $bold: 700;
 }
 
 
+@mixin h1-title-iPadPro{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: $marmol !important;
+}
+
+@mixin h2-subtitle-iPadPro{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: $aqua !important;
+}
+
 @mixin h1-title-phone {
     font-family: Ubuntu;
     font-style: normal;
@@ -62,45 +84,26 @@ $bold: 700;
     color: $aqua !important;
 }
 
-@mixin card-title-desktop{
-    font-family: Oxygen;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 36px;
-    line-height: 24px;
-    color: $marmol !important;
+.title{
+    @include h1-title-phone;
 }
-@mixin card-title-phone{
-    font-family: Oxygen;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 24px;
-    line-height: 18px;
-    color: $marmol !important;
-}
-@mixin card-price-desktop{
-    font-family: Oxygen;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 16px;
-    line-height: 18px;
-    color: $marmol !important;
-}
-@mixin card-price-phone{
-    font-family: Oxygen;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 16px;
-    line-height: 18px;
-    color: $marmol !important;
+.subtitle{
+    @include h2-subtitle-phone;
 }
 
-@mixin card-info-text{
-    font-family: Oxygen;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 13px;
-    line-height: 16px;
-    color:$aqua-light-plus;
-
+@media only screen and (min-width: 768px) {
+    .title{
+        @include h1-title-iPadPro;
+    }
+    .subtitle{
+        @include h2-subtitle-iPadPro;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .title{
+        @include h1-title-desktop();
+    }
+    .subtitle{
+        @include h2-subtitle-desktop();
+    }
 }

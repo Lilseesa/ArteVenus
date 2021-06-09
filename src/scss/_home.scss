@@ -3,16 +3,15 @@
 @import './components/buttons';
 @import './components/border';
 @import './components/fonts';
-@import './about-style';
-
+@import './components/images';
 
 
 
 body, html {
     height: 100%;
     padding: 0;
-    margin: 0; 
-    background-color: $marmol;
+    margin: 0;
+    background-color: $marmol !important;
 }
 
 // Header
@@ -27,12 +26,6 @@ body, html {
 
 // Home
 // Landing Image Section
-.title{
-    @include h1-title-phone;
-}
-.subtitle{
-    @include h2-subtitle-phone;
-}
 .button-rounded-filled{
     @include button-rounded-filled;
 }
@@ -42,26 +35,6 @@ body, html {
 // Landing Image Section End
 
 // Our Products Section
-.card{
-    border: none;
-    background-color: none;
-    @include card-frame;  
-}
-.border-card-image-radius{
-    border-radius: $border-card-image-radius;
-}
-.card-price{
-    @include card-price-phone
-}
-.card-title{
-    @include card-title-phone;
-}
-.card-info-text{
-    @include card-info-text;
-}
-.icon-color{
-    color: $marmol;
-}
 
 // Our Products Section End
 
@@ -73,49 +46,17 @@ body, html {
     // Header
     // Here are all the classes that is used in header
 
-    .botton-text{
-        @include button-text;
-    }
-
     // Header End
 
     // Home
     // Landing Image Section
-    .title{
-        @include h1-title-desktop;
-    }
-    .subtitle{
-        @include h2-subtitle-desktop;
-    }
-    .button-rounded-filled{
-        @include button-rounded-filled;
-    }
+    
     .border-image-radius{
         border-radius: $border-image-radius-desktop;
     }
     // Landing Image Section End
     
     // Our Products Section
-    .border-section{
-        border-radius: $border-radius-section;
-    }
-    .card{
-        border: none;
-        background-color: none;
-        @include card-frame;  
-    }
-    .border-card-image-radius{
-        border-radius: $border-card-image-radius;
-    }
-    .card-price{
-        @include card-price-desktop;
-    }
-    .card-title{
-        @include card-title-desktop;
-    }
-    .card-info-text{
-        @include card-info-text;
-    }
 
     // Our Products Section End
 }
