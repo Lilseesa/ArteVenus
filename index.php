@@ -32,7 +32,7 @@ get_header(); ?>
             <!-- Landing Image Section -->
 
              <!-- Our Products Section -->
-            <div class="row p-5 mt-5 hm_boder-radius-section" style="background:#209690">
+            <div class="row p-5 mt-4 hm_boder-radius-section" style="background:#209690">
                 <div class="col-lg-12">
                     <!-- Our Products Title -->
                     <h1 class="title text-center my-2 py-2"> Our products</h1>
