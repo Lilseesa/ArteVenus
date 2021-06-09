@@ -1,13 +1,9 @@
-:root{
-    --main-bg-color: #f2f2f2;
-    --light-blue: #38BEB7;
-    --dark-blue: #001a25;
-    --aqua-light: #73e5df;
-    --aqua-dark: #209690;
-    --dark-grey: #333333;
-    --light-grey: #F2F2F2;
-    --breakpoint-sm: 600px;
-}
+@import './components/card';
+@import './components/color';
+@import './components/buttons';
+@import './components/border';
+@import './components/fonts';
+@import './about-style';
 
 body, html {
     font-family: 'Ubuntu', sans-serif;
@@ -15,127 +11,90 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0; 
-    background-color: var(--main-bg-color);
+    background-color: $marmol;
 }
 
 /*--------------------HOME--------------------------*/
 
-body{
-    background-size: cover;
-    background-position: center;
-}
-
 .ct_content{
-    position: absolute;
-    left: 70%;
-    float: right;
-    width: 15rem;
+    padding: 5rem;
+    background-color: $aqua-dark;
+    border-radius: 45px;
 }
 
-.ct_containerHeader{
-    position: absolute;
-    left: 20%;
-    top: 25%;
-    width: 9rem;
+.ct_elements{
+    @include h1-title-desktop;
+}
+
+.ct_contactUs{
+    @include h2-subtitle-desktop;
 }
 
 .ct_containerText{
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    width: 904px;
-    color: var(--light-grey);
-    text-align: center;
     font-family: Oxygen;
+    color: $marmol;
     font-size: 18px;
     font-weight: bold;
-    margin: 0 0 8px;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.67;
-}
-
-
-.ct_elements{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    height: 4rem;
-}
-
-.ct_mainTitle{
-    color: var(--aqua-dark);
-    font-size: 64px;
-}
-
-.ct_mainSubtitle{
-    color: var(--aqua-dark);
-    font-size: 48px;
-    text-align: right;
-}
-
-.ct_title{
-    color: var(--light-grey);
-    font-size: 64px;
+    letter-spacing: normal;
+    text-align: center;
 }
 
 .ct_subtitle{
-    color: var(--light-grey);
-    font-size: 48px;
+    margin-left: 10%;
+}
+
+.ct_mainTitles{
     text-align: right;
 }
 
-.ct_trapezoid{
-    position: absolute;
-    margin-top: -6rem;
-    left: 12%;
+.ct_formContainer{
+    padding: 5rem;
+    background-color: $aqua-dark;
+    border-radius: 45px;
+    margin: 2rem 0rem;
 }
 
-.ct_form{
-    transform: translateY(120px);
-    position: relative;
-    width: 65%;
+.form-group{
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: $marmol;
+    margin: 1rem 0rem;
 }
 
 .form-row{
-    color: var(--light-grey);
-}
-
-.ct_btn{
-    position: relative;
-    margin: 1rem;
-    text-align: center;
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: $marmol;
 }
 
 #inputName{
     font-family: 'Ubuntu', sans-serif;
-    padding: 20px 10px;
     border-radius: 10px;
 }
 
 #inputEmail{
     font-family: 'Ubuntu', sans-serif;
-    padding: 20px 10px;
     border-radius: 10px;
 }
 
 #inputMessage{
     font-family: 'Ubuntu', sans-serif;
-    height: 190px;
     border-radius: 10px;
 }
 
 .ct_btn{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    width: 228px;
-    height: 39px;
-    text-align: center;
-    margin: 32px 0 0 0;
-    border-radius: 10px;
-    background-color: var(--light-grey);
-    color: var(--aqua-dark);
-}
-
-.ct_btn:hover{
-    color: var(--light-grey);
-    background-color: var(--aqua-dark);
-    transition: 0.5s;
+    @include button-rounded-filled-v2;
 }

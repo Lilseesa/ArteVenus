@@ -36,6 +36,26 @@ $bold: 700;
     border-radius: $border-button-radius-phone;
 }
 
+@mixin button-rounded-filled-v2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: $bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    color: $aqua-dark;
+    margin: 1rem;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: $marmol;
+
+    border-style: none;
+}
+
 .btn-buy{
 
     border-radius: 10px;
