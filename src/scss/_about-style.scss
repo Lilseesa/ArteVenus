@@ -1,86 +1,82 @@
-:root{
-    --main-bg-color: #f2f2f2;
-    --light-blue: #38BEB7;
-    --dark-blue: #001a25;
-    --aqua-light: #73e5df;
-    --aqua-dark: #209690;
-    --dark-grey: #333333;
-    --light-grey: #F2F2F2;
-    --breakpoint-sm: 600px;
-}
+@import './components/card';
+@import './components/color';
+@import './components/buttons';
+@import './components/border';
+@import './components/fonts';
+
 
 body, html {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
     height: 100%;
     padding: 0;
     margin: 0; 
-    background-color: var(--main-bg-color);
+    background-color: $marmol;
 }
 
 /*--------------------HOME--------------------------*/
 
-body{
-    background-size: cover;
-    background-position: center;
-}
-
-.abt_content{
-    position: absolute;
-    left: 72%;
-    float: right;
-    width: 13.5rem;
-}
-
-.abt_containerHeader{
-    position: absolute;
-    left: 18%;
-    top: 20%;
-    width: 13.5rem;
-}
-
-.abt_containerText{
-    position: absolute;
-    left: 17%;
-    top: 45%;
-    width: 984px;
-    color: var(--light-grey);
-    text-align: center;
-    font-family: Oxygen;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0 0 8px;
-    line-height: 1.67;
-}
-
-
-.abt_elements{
-    font-family: 'Ubuntu', sans-serif;;
-    font-weight: bold;
-}
-
-.abt_mainTitle{
-    color: var(--aqua-dark);
-    font-size: 64px;
-}
-
-.abt_mainSubtitle{
-    color: var(--aqua-dark);
-    font-size: 48px;
+.abt_main_titles{
     text-align: right;
+    padding-top: 1rem;
 }
 
-.abt_title{
-    color: var(--light-grey);
-    font-size: 64px;
+.abt_main_content{
+    padding: 1rem;
+    background-color: $aqua-dark;
+}
+
+.abt_secondary_content{
+    padding: 1rem;
+    background-color: $aqua-dark;
+    margin: 2rem -1rem 0rem -1rem;
 }
 
 .abt_subtitle{
-    color: var(--light-grey);
-    font-size: 48px;
-    text-align: right;
+    margin-left: 10%
 }
 
-.abt_image{
-    position: relative;
-    width: 1280px;
-    margin-top: -6rem;
+.abt_containerText{
+    @include card-price-desktop;
+}
+
+.hm_boder-radius-section{
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hm_boder-radius-section{
+        border-radius: 50px;
+    }
+
+    .abt_main_content{
+        padding: 2rem;
+    }
+
+    .abt_secondary_content{
+        padding: 2rem;
+    }
+
+    .abt_subtitle{
+        margin-left: 9%
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hm_boder-radius-section{
+        border-radius: 50px;
+    }
+
+    .abt_subtitle{
+        margin-left: 6%
+    }
+
+    .abt_main_content{
+        padding: 5rem;
+    }
+
+    .abt_secondary_content{
+        padding: 5rem;
+        margin: 2rem 0rem;
+    }
 }
