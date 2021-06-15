@@ -11,7 +11,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "keywords": [],
-  "author": "Alexis Fallas, Svenn Seemann",
+  "author": "Alexis Fallas, Sven Seemann",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.1"
