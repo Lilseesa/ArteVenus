@@ -36,17 +36,9 @@ function register_my_menus() {
    }
 add_action( 'init', 'register_my_menus' );
 
-add_action( 'send_headers', 'add_header_xcontenttype' );
-function add_header_xcontenttype() {
+add_action( 'send_headers', 'add_header_seguridad' );
+function add_header_seguridad() {
 	header( 'X-Content-Type-Options: nosniff' );
-}
-
-add_action( 'send_headers', 'add_header_xframeoptions' );
-function add_header_xframeoptions() {
 	header( 'X-Frame-Options: SAMEORIGIN' );
-}
-
-add_action( 'send_headers', 'add_header_xxssprotection' );
-function add_header_xxssprotection() {
 	header( 'X-XSS-Protection: 1;mode=block' );
 }
