@@ -26,8 +26,8 @@
 				
 			</div><!-- .site-name -->
 			<div class="powered-by">
-				<a href="http://fetchrss.com/rss/60c8e9242b26753d8879f55260c8e90508e74e228e457b92.xml">Suscribe</a>
-				<img alt="Subscribe to What's New" src="https://i.imgur.com/fZIDSoj.png" width="25" height="25">
+				<!--<a href="http://fetchrss.com/rss/60c8e9242b26753d8879f55260c8e90508e74e228e457b92.xml">Suscribe</a>
+				<img alt="Subscribe to What's New" src="https://i.imgur.com/fZIDSoj.png" width="25" height="25">-->
 			</div><!-- .powered-by -->
 
 		</div><!-- .site-info -->

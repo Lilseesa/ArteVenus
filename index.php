@@ -83,7 +83,8 @@ get_header(); ?>
                <!-- Our Products Section -->
         </div>
         <!-- Content -->
-        <?php
-            get_footer();
-        ?>
+            <a href="http://fetchrss.com/rss/60c8e9242b26753d8879f55260c8e90508e74e228e457b92.xml">Suscribe</a>
+            <img alt="Subscribe to What's New" src="https://i.imgur.com/fZIDSoj.png" width="25" height="25">
     </body>
+    <?php
+    get_footer();
