@@ -83,7 +83,7 @@ get_header(); ?>
                <!-- Our Products Section -->
         </div>
         <!-- Content -->
-
+        <?php
+            get_footer();
+        ?>
     </body>
-    <?php
-    get_footer();
