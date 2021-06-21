@@ -34,18 +34,20 @@ while( have_posts() ) : the_post(); ?>
                     <h2 class="abt_elements abt_subtitle title">history</h2>    
                 </div>
 
-            </div>
-        </div>
-
-        <div class="abt_secondary_content hm_boder-radius-section" >
-            <div class="row">
-                <!-- info -->
                 <div class="abt_containerText card-price-desktop">
                     <!--<?php the_content(); ?>-->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
+
+            </div>
+        </div>
+
+        <div class="abt_secondary_content hm_boder-radius-section" >
+            <div class="row">
+                <!-- info -->
+                <img src="<?php echo get_template_directory_uri().'/src/images/Team_Image2.png';?>" class="abt_img_holder" alt="team image">
             </div>
         </div>
 

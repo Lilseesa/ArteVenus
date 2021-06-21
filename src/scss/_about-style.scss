@@ -26,12 +26,6 @@ body, html {
     background-color: $aqua-dark;
 }
 
-.abt_secondary_content{
-    padding: 1rem;
-    background-color: $aqua-dark;
-    margin: 2rem -1rem 0rem -1rem;
-}
-
 .abt_subtitle{
     margin-left: 10%
 }
@@ -44,6 +38,14 @@ body, html {
     border-radius: 0px;
 }
 
+.abt_img_holder{
+    width: 100%;
+}
+
+.abt_secondary_content{
+    margin-top: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
     .hm_boder-radius-section{
         border-radius: 50px;
@@ -53,12 +55,16 @@ body, html {
         padding: 2rem;
     }
 
-    .abt_secondary_content{
-        padding: 2rem;
-    }
-
     .abt_subtitle{
         margin-left: 9%
+    }
+
+    .abt_img_holder{
+        width: 100%;
+    }
+
+    .abt_secondary_content{
+        margin-top: 2rem;
     }
 }
 
@@ -75,8 +81,11 @@ body, html {
         padding: 5rem;
     }
 
+    .abt_img_holder{
+        width: 100%;
+    }
+
     .abt_secondary_content{
-        padding: 5rem;
-        margin: 2rem 0rem;
+        margin-top: 3rem;
     }
 }
