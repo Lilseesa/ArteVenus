@@ -91,6 +91,32 @@ $bold: 700;
     @include h2-subtitle-phone;
 }
 
+//About Titles
+.abt_mainTitles{
+    @include h1-title-phone;
+    color: $aqua-dark !important;
+    text-align: right;
+    padding-top: 1rem;
+}
+.abt_mainSubtitle{
+    @include h2-subtitle-phone;
+    color: $aqua-dark !important;
+    text-align: right;
+    padding-top: 1rem;
+}
+
+// Produsts Titles
+.prod_title{
+    @include h1-title-phone;
+    text-align: right;
+    color: $aqua-dark !important;
+}
+
+.prod_subtitle{
+    @include h2-subtitle-phone;
+    color: $aqua !important;
+}
+
 @media only screen and (min-width: 768px) {
     .title{
         @include h1-title-iPadPro;
@@ -98,6 +124,35 @@ $bold: 700;
     .subtitle{
         @include h2-subtitle-iPadPro;
     }
+
+    //About Titles
+    .abt_mainTitles{
+        @include h1-title-iPadPro;
+        color: $aqua-dark !important;
+        text-align: right;
+        padding-top: 1rem;
+    }
+    .abt_mainSubtitle{
+        @include h2-subtitle-iPadPro;
+        color: $aqua-dark !important;
+        text-align: right;
+        padding-top: 1rem;
+    }
+
+    //Products Title
+    .prod_title{
+        @include h1-title-iPadPro;
+        text-align: right;
+        color: $aqua-dark !important;
+    }
+    
+    .prod_subtitle{
+        @include h2-subtitle-iPadPro;
+        color: $aqua !important;
+    }
+    
+    
+
 }
 @media only screen and (min-width: 1024px) {
     .title{
@@ -105,5 +160,30 @@ $bold: 700;
     }
     .subtitle{
         @include h2-subtitle-desktop();
+    }
+    //About Titles
+    .abt_mainTitles{
+        @include h1-title-desktop;
+        color: $aqua-dark !important;
+        text-align: right;
+        padding-top: 1rem;
+    }
+    .abt_mainSubtitle{
+        @include h2-subtitle-desktop;
+        color: $aqua-dark !important;
+        text-align: right;
+        padding-top: 1rem;
+    }
+
+    // Produsts Titles
+    .prod_title{
+        @include h1-title-desktop;
+        text-align: right;
+        color: $aqua-dark !important;
+    }
+    
+    .prod_subtitle{
+        @include h2-subtitle-desktop;
+        color: $aqua !important;
     }
 }

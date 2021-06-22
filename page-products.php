@@ -22,14 +22,14 @@ while( have_posts() ) : the_post(); ?>
         <div class="container">
 
             <div class="row prod_main_titles">
-                <h1 class="prod_elements prod_mainTitle">Products</h1>
+                <h1 class="prod_elements prod_title">Products</h1>
             </div>
     
             <div class="row mt-5 prod_main_content hm_boder-radius-section" >
                 <div class="row">
                     <!-- Special offers Title -->
                     <div class="prod_containerHeader">
-                        <h1 class="prod_elements prod_title">Special offers</h1>
+                        <h1 class="prod_elements prod_subtitle">Special offers</h1>
                     </div>
                 </div>
             </div>

@@ -7614,6 +7614,51 @@ textarea.form-control-lg {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -7630,6 +7675,47 @@ textarea.form-control-lg {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -7648,6 +7734,47 @@ textarea.form-control-lg {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -7760,6 +7887,51 @@ textarea.form-control-lg {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -7776,6 +7948,47 @@ textarea.form-control-lg {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -7794,6 +8007,47 @@ textarea.form-control-lg {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -7853,6 +8107,51 @@ textarea.form-control-lg {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -7869,6 +8168,47 @@ textarea.form-control-lg {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -7887,6 +8227,47 @@ textarea.form-control-lg {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 .img-fluid {
@@ -7971,6 +8352,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -7987,6 +8413,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8005,6 +8472,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -8117,6 +8625,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8133,6 +8686,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8151,6 +8745,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -8210,6 +8845,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8226,6 +8906,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8244,6 +8965,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 body, html {
@@ -8378,6 +9140,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8394,6 +9201,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8412,6 +9260,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -8524,6 +9413,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8540,6 +9474,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8558,6 +9533,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -8617,6 +9633,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8633,6 +9694,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8651,6 +9753,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 body, html {
@@ -8662,10 +9805,6 @@ body, html {
   background-color: #f2f2f2; }
 
 /*--------------------HOME--------------------------*/
-.abt_main_titles {
-  text-align: right;
-  padding-top: 1rem; }
-
 .abt_main_content {
   padding: 1rem;
   background-color: #209690; }
@@ -8735,6 +9874,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8751,6 +9935,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8769,6 +9994,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -8881,6 +10147,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8897,6 +10208,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -8915,6 +10267,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -8974,6 +10367,51 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.abt_mainTitles {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.abt_mainSubtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #209690 !important;
+  text-align: right;
+  padding-top: 1rem; }
+
+.prod_title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2 !important;
+  text-align: right;
+  color: #209690 !important; }
+
+.prod_subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #38BEB7 !important;
+  color: #38BEB7 !important; }
+
 @media only screen and (min-width: 768px) {
   .title {
     font-family: Ubuntu;
@@ -8990,6 +10428,47 @@ body, html {
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 @media only screen and (min-width: 1024px) {
@@ -9008,6 +10487,47 @@ body, html {
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
+    color: #38BEB7 !important; }
+  .abt_mainTitles {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .abt_mainSubtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
+    color: #209690 !important;
+    text-align: right;
+    padding-top: 1rem; }
+  .prod_title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #f2f2f2 !important;
+    text-align: right;
+    color: #209690 !important; }
+  .prod_subtitle {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #38BEB7 !important;
     color: #38BEB7 !important; } }
 
 .img-fluid {
@@ -9046,27 +10566,6 @@ body, html {
   font-size: 13px;
   line-height: 16px;
   color: #f2f2f2; }
-
-.prod_mainTitle {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 80px;
-  letter-spacing: 0.05em;
-  color: #38BEB7 !important;
-  text-align: right;
-  color: #209690 !important; }
-
-.prod_title {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 50px;
-  letter-spacing: 0.05em;
-  color: #38BEB7 !important;
-  color: #38BEB7 !important; }
 
 .card-v2 {
   position: relative;

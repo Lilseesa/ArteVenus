@@ -20,17 +20,6 @@ body, html {
     @include card-info-text-v2;
 }
 
-.prod_mainTitle{
-    @include h2-subtitle-desktop;
-    text-align: right;
-    color: $aqua-dark !important;
-}
-
-.prod_title{
-    @include h2-subtitle-iPadPro;
-    color: $aqua !important;
-}
-
 .card-v2{
     position: relative;
     display: flex;

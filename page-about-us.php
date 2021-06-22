@@ -21,8 +21,8 @@ while( have_posts() ) : the_post(); ?>
     <div class="container">
 
         <div class="row abt_main_titles">
-            <h1 class="abt_elements abt_mainTitle subtitle">About</h1>
-            <h2 class="abt_elements abt_mainSubtitle subtitle">us</h2>
+            <h1 class="abt_elements abt_mainTitles">About</h1>
+            <h2 class="abt_elements abt_mainSubtitle">us</h2>
         </div>
 
         <div class="row mt-5 abt_main_content hm_boder-radius-section" >
@@ -34,17 +34,14 @@ while( have_posts() ) : the_post(); ?>
                     <h2 class="abt_elements abt_subtitle title">history</h2>    
                 </div>
 
-                <div class="abt_containerText card-price-desktop">
-                    <!--<?php the_content(); ?>-->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="abt_containerText card-price-desktop mt-3">
+                   <?php the_content(); ?>
                 </div>
 
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-3">
                 <!-- info -->
             <img src="<?php echo get_template_directory_uri().'/src/images/Team_Image2.png';?>" class="abt_img_holder" alt="team image">
         </div>
