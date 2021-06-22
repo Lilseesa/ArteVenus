@@ -27,7 +27,7 @@ while( have_posts() ) : the_post(); ?>
 
         <div class="row mt-5 abt_main_content hm_boder-radius-section" >
             <div class="row">
-                <!-- Contact us Title -->
+                <!-- About us Title -->
 
                 <div class="abt_containerHeader">
                     <h1 class="abt_elements abt_title title">Our</h1>
