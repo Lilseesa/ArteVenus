@@ -44,18 +44,16 @@ while( have_posts() ) : the_post(); ?>
             </div>
         </div>
 
-        <div class="abt_secondary_content hm_boder-radius-section" >
-            <div class="row">
+        <div class="row">
                 <!-- info -->
-                <img src="<?php echo get_template_directory_uri().'/src/images/Team_Image2.png';?>" class="abt_img_holder" alt="team image">
-            </div>
+            <img src="<?php echo get_template_directory_uri().'/src/images/Team_Image2.png';?>" class="abt_img_holder" alt="team image">
         </div>
 
     </div>
 
-    <?php endwhile; ?>
-    </body>
+<?php endwhile; ?>
+</body>
 
-    <?php
-        get_footer();
-    ?>
+<?php
+    get_footer();
+?>

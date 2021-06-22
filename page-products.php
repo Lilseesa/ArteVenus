@@ -1,42 +1,19 @@
-<!-- <?php
+<?php
 /**
- * The header.
- *
- * This is the template that displays all of the <head> section and everything up until main.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * The main template file
+ * @link https://localhost/wordpress/?page_id=8
  *
  * @package WordPress
  * @subpackage 
  * @since 
  */
 
-?> -->
-<!doctype html>
-<html lang="en">
-<!-- <html <?php language_attributes(); ?> > -->
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Arte Venus</title>
+get_header();?>
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+<?php
 
-	<!-- <?php wp_head();?> -->
-
-	<!-- Swiper -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-
-	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="/assets/css/main.css">
-</head>
+//loop
+while( have_posts() ) : the_post(); ?>
 
 <body>
     <!-- Content -->
@@ -106,7 +83,10 @@
             </div>
         </div>
     </div>
+
+<?php endwhile; ?>
 </body>
 
-<!-- <?php
-get_footer(); -->
+<?php
+    get_footer();
+?>
