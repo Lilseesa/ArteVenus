@@ -30,7 +30,6 @@ $bold: 700;
     font-size: 64px;
     line-height: 56px;
     letter-spacing: 0.01em;
-    color: $marmol !important;
 }
 
 @mixin h2-subtitle-desktop {
@@ -40,7 +39,6 @@ $bold: 700;
     font-size: 96px;
     line-height: 80px;
     letter-spacing: 0.05em;
-    color: $aqua !important;
 }
 
 
@@ -51,7 +49,7 @@ $bold: 700;
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: $marmol !important;
+    
 }
 
 @mixin h2-subtitle-iPadPro{
@@ -61,7 +59,6 @@ $bold: 700;
     font-size: 44px;
     line-height: 50px;
     letter-spacing: 0.05em;
-    color: $aqua !important;
 }
 
 @mixin h1-title-phone {
@@ -71,7 +68,6 @@ $bold: 700;
     font-size: 36px;
     line-height: 32px;
     letter-spacing: 0.01em;
-    color: $marmol !important;
 }
 
 @mixin h2-subtitle-phone {
@@ -81,14 +77,16 @@ $bold: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: $aqua !important;
+    
 }
 
 .title{
     @include h1-title-phone;
+    color: $marmol !important;
 }
 .subtitle{
     @include h2-subtitle-phone;
+    color: $aqua !important;
 }
 
 //About Titles
@@ -117,12 +115,25 @@ $bold: 700;
     color: $aqua !important;
 }
 
+// Single Produst Titles
+.single_prod_title{
+    @include h1-title-phone;
+    color: $aqua-dark !important; 
+}
+
+.single_prod_subtitle{
+    @include h2-subtitle-phone;
+    color: $aqua !important;
+}
+
 @media only screen and (min-width: 768px) {
     .title{
         @include h1-title-iPadPro;
+        color: $aqua !important;
     }
     .subtitle{
         @include h2-subtitle-iPadPro;
+        color: $aqua !important;
     }
 
     //About Titles
@@ -150,16 +161,27 @@ $bold: 700;
         @include h2-subtitle-iPadPro;
         color: $aqua !important;
     }
-    
+    // Single Produst Titles
+    .single_prod_title{
+        @include h1-title-phone;
+        color: $aqua-dark !important; 
+    }
+
+    .single_prod_subtitle{
+        @include h2-subtitle-phone;
+        color: $aqua !important;
+    }
     
 
 }
 @media only screen and (min-width: 1024px) {
     .title{
         @include h1-title-desktop();
+        color: $marmol !important;
     }
     .subtitle{
         @include h2-subtitle-desktop();
+        color: $aqua !important;
     }
     //About Titles
     .abt_mainTitles{
@@ -184,6 +206,17 @@ $bold: 700;
     
     .prod_subtitle{
         @include h2-subtitle-desktop;
+        color: $aqua !important;
+    }
+
+    // Single Produst Titles
+    .single_prod_title{
+        @include h1-title-phone;
+        color: $aqua-dark !important; 
+    }
+
+    .single_prod_subtitle{
+        @include h2-subtitle-phone;
         color: $aqua !important;
     }
 }

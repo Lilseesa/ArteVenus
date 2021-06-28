@@ -1,8 +1,18 @@
+@import './border';
 
- .img-fluid{
+
+.img-fluid{
     width: 100% !important;
     height: 210px !important;
     object-fit: cover !important;
+}
+
+
+.small-product-image{
+    object-fit: cover !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+    border-radius: 25px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -11,6 +21,12 @@
         height: 493px !important;
         object-fit: cover !important;
     }
+    .small-product-image{
+        object-fit: cover !important;
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50px;
+    }
 }
 @media only screen and (min-width: 1024px) {
     .img-fluid{
@@ -18,5 +34,12 @@
         height: 580px !important;
         object-fit: cover !important;
     }
+    .small-product-image{
+        object-fit: cover !important;
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50px;
+    }
 }
+
 
