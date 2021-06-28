@@ -8399,7 +8399,7 @@ textarea.form-control-lg {
      object-fit: cover !important;
   max-width: 100px !important;
   max-height: 100px !important;
-  border-radius: 25px; }
+  border-radius: 10px; }
 
 @media only screen and (min-width: 768px) {
   .img-fluid {
@@ -8412,7 +8412,7 @@ textarea.form-control-lg {
        object-fit: cover !important;
     max-width: 100px;
     max-height: 100px;
-    border-radius: 50px; } }
+    border-radius: 10px; } }
 
 @media only screen and (min-width: 1024px) {
   .img-fluid {
@@ -8425,7 +8425,7 @@ textarea.form-control-lg {
        object-fit: cover !important;
     max-width: 100px;
     max-height: 100px;
-    border-radius: 50px; } }
+    border-radius: 10px; } }
 
 body, html {
   height: 100%;
@@ -11024,7 +11024,7 @@ body, html {
      object-fit: cover !important;
   max-width: 100px !important;
   max-height: 100px !important;
-  border-radius: 25px; }
+  border-radius: 10px; }
 
 @media only screen and (min-width: 768px) {
   .img-fluid {
@@ -11037,7 +11037,7 @@ body, html {
        object-fit: cover !important;
     max-width: 100px;
     max-height: 100px;
-    border-radius: 50px; } }
+    border-radius: 10px; } }
 
 @media only screen and (min-width: 1024px) {
   .img-fluid {
@@ -11050,7 +11050,7 @@ body, html {
        object-fit: cover !important;
     max-width: 100px;
     max-height: 100px;
-    border-radius: 50px; } }
+    border-radius: 10px; } }
 
 body, html {
   font-family: 'Ubuntu', sans-serif;
