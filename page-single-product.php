@@ -25,7 +25,7 @@ while( have_posts() ) : the_post(); ?>
             </div>
                 <div class="col-md-6"> 
                     <h1 class="single_prod_title">Products Name</h1>
-                    <h4 class="single-prod-price">$199.99</h4>
+                    <h4 class="single-prod-price my-3">$199.99</h4>
                         <h5 class="single-prod-section-title">Styles:</h5>
                         <div class="row">
                             <div class="d-flex flex-wrap">
@@ -50,7 +50,7 @@ while( have_posts() ) : the_post(); ?>
 
         
         <!--Products Section -->
-        <div class="row p-3 mt-3">
+        <div class="row p-3 mt-5">
             <div class="col-lg-12">
                 <!--Products Title -->
                 <div class="row row-cols-1 row-cols-md-3 g-4">
