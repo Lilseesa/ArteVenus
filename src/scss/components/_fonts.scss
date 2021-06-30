@@ -7,6 +7,7 @@
 }
 
 //Fonts Weight
+$normal: 400;
 $medium: 500;
 $bold: 700;
 
@@ -23,9 +24,32 @@ $bold: 700;
     text-transform: uppercase;
 }
 
+@mixin section-title {
+    font-family: 'Oxygen', sans-serif;
+    font-style: $normal;
+    font-weight: $bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+@mixin section-titlev2 {
+    font-family: 'Oxygen', sans-serif;
+    font-style: $normal;
+    font-weight: $bold;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+@mixin body-text{
+    font-family: 'Oxygen', sans-serif;
+    font-style: $normal;
+    font-weight:  $bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 @mixin h1-title-desktop {
-    font-family: Ubuntu;
-    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: $normal;
     font-weight: $bold;
     font-size: 64px;
     line-height: 56px;
@@ -33,7 +57,7 @@ $bold: 700;
 }
 
 @mixin h2-subtitle-desktop {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: $bold;
     font-size: 96px;
@@ -43,7 +67,7 @@ $bold: 700;
 
 
 @mixin h1-title-iPadPro{
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: $bold;
     font-size: 66px;
@@ -53,7 +77,7 @@ $bold: 700;
 }
 
 @mixin h2-subtitle-iPadPro{
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: $bold;
     font-size: 44px;
@@ -62,7 +86,7 @@ $bold: 700;
 }
 
 @mixin h1-title-phone {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: $bold;
     font-size: 36px;
@@ -71,13 +95,19 @@ $bold: 700;
 }
 
 @mixin h2-subtitle-phone {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: $bold;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
     
+}
+
+.single-prod-body{
+    @include body-text;
+    color: $aqua-dark;
+    opacity: 70%;
 }
 
 .title{
@@ -116,6 +146,16 @@ $bold: 700;
 }
 
 // Single Produst Titles
+
+.single-prod-section-title{
+    @include section-title;
+    color: $aqua-dark !important;
+}
+.single-prod-price{
+    @include section-titlev2;
+    color: $aqua-dark !important;
+    opacity: 60%;
+}
 .single_prod_title{
     @include h1-title-phone;
     color: $aqua-dark !important; 
