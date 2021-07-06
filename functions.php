@@ -3,11 +3,9 @@
 
 add_action('wp_enqueue_scripts', 'add_script');
 function add_script() {
-	// Adding Swiper Js
-	wp_register_script('js-swiper', 'https://unpkg.com/swiper/swiper-bundle.js', array(), '6.6.2', true);
-	wp_enqueue_script('js-swiper');
-	wp_register_script('swiper', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), '6.6.2', true);
-	wp_enqueue_script('swiper');
+	// Adding Nice Number Js
+	wp_register_script('nice-number', 'node_modules/jquery.nice-number/dist/jquery.nice-number.min.js', array(), '2.1.0', true);
+	wp_enqueue_script('nice-number');
 
 	// Adding Bootstrap Js
 	wp_enqueue_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js', array (), '5.0.0', true);
@@ -18,6 +16,10 @@ function add_script() {
 	// Adding Main JS
 	wp_register_script('js-home', get_stylesheet_directory_uri().'/src/js/main.js', array(), '1', true);
 	wp_enqueue_script('js-home');
+
+	//JQuery
+	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array(), '2.1.0', true);
+	wp_enqueue_script('jquery');
 
 }
 

@@ -14,7 +14,8 @@
   "author": "Alexis Fallas, Sven Seemann",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.0.1"
+    "bootstrap": "^5.0.1",
+    "jquery.nice-number": "^2.1.0"
   },
   "devDependencies": {
     "@popperjs/core": "^2.9.2",

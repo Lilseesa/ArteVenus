@@ -38,48 +38,7 @@ while( have_posts() ) : the_post(); ?>
          <!--Products Section -->
         <div class="row p-3 mt-3">
             <div class="col-lg-12">
-                <!--Products Title -->
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                </div>
+                <?php echo do_shortcode( '[sale_products columns=3 limit=3]' )?> 
             </div>
         </div>
 
@@ -98,73 +57,9 @@ while( have_posts() ) : the_post(); ?>
 
         <div class="row p-3 mt-3">
             <div class="col-lg-12">
+                <?php echo do_shortcode( '[products columns=3 limit=6]' )?>
                 <!--Products Title -->
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
-                    <!-- Product Card -->
-                    <div class="col">
-                        <div class="card-v2 pb-4">
-                            <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                            <div class="d-flex flex-column pt-2">
-                                <p class="card-info-text-v2 mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <div class="d-flex mx-auto">
-                                    <button type="button" class="btn-buy-products button-rounded-filledv2">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product Card -->
                     <!-- Product Card -->
                     <div class="col">
                         <div class="card-v2 pb-4">

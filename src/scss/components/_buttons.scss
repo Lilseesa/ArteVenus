@@ -134,6 +134,10 @@ $bold: 700;
     border-radius: $border-button-radius-phone;
 }
 
+.nice-button button{
+    color: $aqua-dark;
+}
+
 .button-rounded-filled-large{
     @include button-rounded-filled-large;
 }
@@ -142,4 +146,31 @@ $bold: 700;
     color: $aqua-dark;
     background-color: $marmol;
     transition: 0.2s;
+}
+
+a.button, 
+button.button {
+    border-radius: 10px;
+    color: $aqua-dark !important;
+
+    margin-top: 16px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    border-style: none;
+
+    /* wp-Aqua */
+    background: var($aqua-light-plus);
 }
