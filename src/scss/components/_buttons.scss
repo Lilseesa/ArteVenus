@@ -134,8 +134,12 @@ $bold: 700;
     border-radius: $border-button-radius-phone;
 }
 
-.nice-button button{
-    color: $aqua-dark;
+.nice-number button{
+    margin: 4px 0;
+    border-radius: 4px;
+    border: none;
+    color: $marmol;
+    background-color: $aqua-dark;
 }
 
 .button-rounded-filled-large{
@@ -148,10 +152,9 @@ $bold: 700;
     transition: 0.2s;
 }
 
-a.button, 
-button.button {
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
     border-radius: 10px;
-    color: $aqua-dark !important;
+    color: $marmol !important;
 
     margin-top: 16px;
 
@@ -172,5 +175,9 @@ button.button {
     border-style: none;
 
     /* wp-Aqua */
-    background: var($aqua-light-plus);
+    background-color: $aqua-dark; 
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: $aqua; 
 }

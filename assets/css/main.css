@@ -7777,25 +7777,25 @@ textarea.form-control-lg {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -7803,9 +7803,9 @@ textarea.form-control-lg {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -7813,18 +7813,18 @@ textarea.form-control-lg {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -8133,25 +8133,25 @@ textarea.form-control-lg {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -8159,9 +8159,9 @@ textarea.form-control-lg {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -8169,18 +8169,18 @@ textarea.form-control-lg {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -8246,8 +8246,12 @@ textarea.form-control-lg {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
-.nice-button button {
-  color: #209690; }
+.nice-number button {
+  margin: 4px 0;
+  border-radius: 4px;
+  border: none;
+  color: #f2f2f2;
+  background-color: #209690; }
 
 .button-rounded-filled-large {
   font-family: 'Ubuntu', sans-serif;
@@ -8269,10 +8273,9 @@ textarea.form-control-lg {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-a.button,
-button.button {
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
   border-radius: 10px;
-  color: #209690 !important;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -8288,7 +8291,10 @@ button.button {
   padding: 8px 16px;
   border-style: none;
   /* wp-Aqua */
-  background: var(#48E9E0); }
+  background-color: #209690; }
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #38BEB7; }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -8476,25 +8482,25 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -8502,9 +8508,9 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -8512,18 +8518,18 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -8549,6 +8555,9 @@ button.button {
   line-height: 30px;
   outline: none;
   border: none; }
+
+.form-row {
+  color: #209690 !important; }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -8592,6 +8601,9 @@ button.button {
     max-width: 100px;
     max-height: 100px;
     border-radius: 10px; } }
+
+.woocommerce-info {
+  border-top-color: #38BEB7 !important; }
 
 body, html {
   height: 100%;
@@ -8816,25 +8828,25 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -8842,9 +8854,9 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -8852,18 +8864,18 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -9172,25 +9184,25 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -9198,9 +9210,9 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -9208,18 +9220,18 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -9285,8 +9297,12 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
-.nice-button button {
-  color: #209690; }
+.nice-number button {
+  margin: 4px 0;
+  border-radius: 4px;
+  border: none;
+  color: #f2f2f2;
+  background-color: #209690; }
 
 .button-rounded-filled-large {
   font-family: 'Ubuntu', sans-serif;
@@ -9308,10 +9324,9 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-a.button,
-button.button {
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
   border-radius: 10px;
-  color: #209690 !important;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -9327,7 +9342,10 @@ button.button {
   padding: 8px 16px;
   border-style: none;
   /* wp-Aqua */
-  background: var(#48E9E0); }
+  background-color: #209690; }
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #38BEB7; }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -9515,25 +9533,25 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -9541,9 +9559,9 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -9551,18 +9569,18 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -9874,25 +9892,25 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -9900,9 +9918,9 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -9910,18 +9928,18 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -10230,25 +10248,25 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -10256,9 +10274,9 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -10266,18 +10284,18 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -10343,8 +10361,12 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
-.nice-button button {
-  color: #209690; }
+.nice-number button {
+  margin: 4px 0;
+  border-radius: 4px;
+  border: none;
+  color: #f2f2f2;
+  background-color: #209690; }
 
 .button-rounded-filled-large {
   font-family: 'Ubuntu', sans-serif;
@@ -10366,10 +10388,9 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-a.button,
-button.button {
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
   border-radius: 10px;
-  color: #209690 !important;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -10385,7 +10406,10 @@ button.button {
   padding: 8px 16px;
   border-style: none;
   /* wp-Aqua */
-  background: var(#48E9E0); }
+  background-color: #209690; }
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #38BEB7; }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -10573,25 +10597,25 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -10599,9 +10623,9 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -10609,18 +10633,18 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -10878,25 +10902,25 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -10904,9 +10928,9 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -10914,18 +10938,18 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -11234,25 +11258,25 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -11260,9 +11284,9 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -11270,18 +11294,18 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;
@@ -11347,8 +11371,12 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
-.nice-button button {
-  color: #209690; }
+.nice-number button {
+  margin: 4px 0;
+  border-radius: 4px;
+  border: none;
+  color: #f2f2f2;
+  background-color: #209690; }
 
 .button-rounded-filled-large {
   font-family: 'Ubuntu', sans-serif;
@@ -11370,10 +11398,9 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-a.button,
-button.button {
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
   border-radius: 10px;
-  color: #209690 !important;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -11389,7 +11416,10 @@ button.button {
   padding: 8px 16px;
   border-style: none;
   /* wp-Aqua */
-  background: var(#48E9E0); }
+  background-color: #209690; }
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #38BEB7; }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -11577,25 +11607,25 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -11603,9 +11633,9 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #209690 !important;
     text-align: right;
     padding-top: 1rem; }
@@ -11613,18 +11643,18 @@ button.button {
     font-family: 'Ubuntu', sans-serif;
     font-style: 400;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+    font-size: 64px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
     font-family: 'Ubuntu', sans-serif;

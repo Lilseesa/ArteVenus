@@ -47,7 +47,7 @@ while( have_posts() ) : the_post(); ?>
                 <div class="row">
                     <!-- Special offers Title -->
                     <div class="prod_containerHeader">
-                        <h1 class="prod_elements prod_subtitle">New products</h1>
+                        <h1 class="prod_elements prod_subtitle">All products</h1>
                     </div>
                 </div>
             </div>

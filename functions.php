@@ -4,8 +4,8 @@
 add_action('wp_enqueue_scripts', 'add_script');
 function add_script() {
 	// Adding Nice Number Js
-	wp_register_script('nice-number', 'node_modules/jquery.nice-number/dist/jquery.nice-number.min.js', array(), '2.1.0', true);
-	wp_enqueue_script('nice-number');
+	// wp_register_script('nice-number', 'node_modules/jquery.nice-number/dist/jquery.nice-number.min.js', array(), '2.1.0', true);
+	// wp_enqueue_script('nice-number');
 
 	// Adding Bootstrap Js
 	wp_enqueue_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js', array (), '5.0.0', true);
