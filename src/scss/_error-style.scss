@@ -49,10 +49,14 @@ html {
 }
 
 .woocommerce-loop-product__title{
-  color: $marmol;
+  color: $marmol !important;
 }
 
 .woocommerce_placeholder{
+  border-radius: 30px;
+}
+
+.wp-post-image{
   border-radius: 30px;
 }
 
