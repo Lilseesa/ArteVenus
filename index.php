@@ -38,52 +38,11 @@ get_header(); ?>
                     <h1 class="title text-center my-2 py-2"> Our products</h1>
                     <!-- Our Products Title -->
                         <?php echo do_shortcode( '[recent_products columns=3 limit=3 category=Accessories]' )?>
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <!-- Product Card -->
-                        <div class="col">
-                            <div class="card pb-4">
-                                <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                                <div class="d-flex flex-column pt-2">
-                                    <p class="card-info-text mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <div class="d-flex mx-auto">
-                                        <button type="button" class="btn-buy button-rounded-filled">Buy Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Product Card -->
-                        <!-- Product Card -->
-                        <div class="col">
-                            <div class="card pb-4">
-                                <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                                <div class="d-flex flex-column pt-2">
-                                    <p class="card-info-text mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <div class="d-flex mx-auto">
-                                        <button type="button" class="btn-buy button-rounded-filled">Buy Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Product Card -->
-                        <!-- Product Card -->
-                        <div class="col">
-                            <div class="card pb-4">
-                                <img src="http://smallbiztrends.com/wp-content/uploads/2018/10/shutterstock_354254963.jpg" class="card-img-top border-card-image-radius" alt="...">
-                                <div class="d-flex flex-column pt-2">
-                                    <p class="card-info-text mx-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <div class="d-flex mx-auto">
-                                        <button type="button" class="btn-buy button-rounded-filled">Buy Now </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <!-- Product Card -->
                     </div>
                 </div>
             </div>
                <!-- Our Products Section -->
-               <a href="http://fetchrss.com/rss/60c8e9242b26753d8879f55260c8e90508e74e228e457b92.xml">Suscribe</a>
-               <img alt="Subscribe to What's New" src="https://i.imgur.com/fZIDSoj.png" width="25" height="25">
         </div>
         <!-- Content -->
     </body>
