@@ -44,3 +44,14 @@ function add_header_seguridad() {
 	header( 'X-Frame-Options: SAMEORIGIN' );
 	header( 'X-XSS-Protection: 1;mode=block' );
 }
+
+
+/**
+ * 
+ * For use woocommerce template
+ * @see https://github.com/woocommerce/woocommerce/wiki/Declaring-WooCommerce-support-in-themes
+*/
+function artevenus_add_woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'artevenus_add_woocommerce_support' );
