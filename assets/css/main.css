@@ -26,8 +26,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap);
-.nice-number{display:inline-flex;justify-content:stretch}.nice-number input{vertical-align:middle;-moz-appearance:textfield;box-sizing:content-box;margin:0;text-align:center}
-.nice-number input::-webkit-inner-spin-button,.nice-number input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7596,10 +7594,10 @@ textarea.form-control-lg {
     display: none !important; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -7608,7 +7606,7 @@ textarea.form-control-lg {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7617,7 +7615,7 @@ textarea.form-control-lg {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -7626,7 +7624,7 @@ textarea.form-control-lg {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7637,7 +7635,7 @@ textarea.form-control-lg {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -7648,7 +7646,7 @@ textarea.form-control-lg {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7658,7 +7656,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -7666,8 +7664,31 @@ textarea.form-control-lg {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -7675,7 +7696,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -7684,7 +7705,7 @@ textarea.form-control-lg {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7693,7 +7714,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -7703,7 +7724,7 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -7711,7 +7732,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -7719,7 +7740,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -7729,7 +7750,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -7739,7 +7760,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -7748,7 +7769,7 @@ textarea.form-control-lg {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -7756,7 +7777,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -7764,17 +7785,37 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -7782,7 +7823,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -7790,7 +7831,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -7800,7 +7841,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -7810,7 +7851,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -7819,7 +7860,7 @@ textarea.form-control-lg {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -7827,7 +7868,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -7835,13 +7876,33 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -7952,10 +8013,10 @@ textarea.form-control-lg {
     color: #209690; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -7964,7 +8025,7 @@ textarea.form-control-lg {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7973,7 +8034,7 @@ textarea.form-control-lg {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -7982,7 +8043,7 @@ textarea.form-control-lg {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7993,7 +8054,7 @@ textarea.form-control-lg {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8004,7 +8065,7 @@ textarea.form-control-lg {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8014,7 +8075,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8022,8 +8083,31 @@ textarea.form-control-lg {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -8031,7 +8115,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -8040,7 +8124,7 @@ textarea.form-control-lg {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8049,7 +8133,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8059,7 +8143,7 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8067,7 +8151,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8075,7 +8159,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8085,7 +8169,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8095,7 +8179,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8104,7 +8188,7 @@ textarea.form-control-lg {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8112,7 +8196,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8120,17 +8204,37 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8138,7 +8242,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8146,7 +8250,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8156,7 +8260,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8166,7 +8270,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8175,7 +8279,7 @@ textarea.form-control-lg {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8183,7 +8287,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8191,13 +8295,33 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -8229,6 +8353,26 @@ textarea.form-control-lg {
 .btn-buy-products {
   border-radius: 10px;
   color: #209690 !important;
+  margin-top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-style: none;
+  /* wp-Aqua */
+  background: var(#48E9E0); }
+
+.btn-error {
+  border-radius: 10px;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -8301,10 +8445,10 @@ textarea.form-control-lg {
     border-radius: 40px; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -8313,7 +8457,7 @@ textarea.form-control-lg {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8322,7 +8466,7 @@ textarea.form-control-lg {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8331,7 +8475,7 @@ textarea.form-control-lg {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8342,7 +8486,7 @@ textarea.form-control-lg {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8353,7 +8497,7 @@ textarea.form-control-lg {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8363,7 +8507,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8371,8 +8515,31 @@ textarea.form-control-lg {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -8380,7 +8547,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -8389,7 +8556,7 @@ textarea.form-control-lg {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8398,7 +8565,7 @@ textarea.form-control-lg {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8408,7 +8575,7 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8416,7 +8583,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8424,7 +8591,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8434,7 +8601,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8444,7 +8611,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8453,7 +8620,7 @@ textarea.form-control-lg {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8461,7 +8628,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8469,17 +8636,37 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8487,7 +8674,7 @@ textarea.form-control-lg {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8495,7 +8682,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8505,7 +8692,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8515,7 +8702,7 @@ textarea.form-control-lg {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8524,7 +8711,7 @@ textarea.form-control-lg {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8532,7 +8719,7 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8540,13 +8727,33 @@ textarea.form-control-lg {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 .single-prod-quantity-input {
   margin: 0 8px;
@@ -8612,7 +8819,7 @@ body, html {
   background-color: #f2f2f2 !important; }
 
 .navbar-nav li a {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   display: flex;
   flex-direction: row;
@@ -8647,10 +8854,10 @@ body, html {
     border-radius: 50px; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -8659,7 +8866,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8668,7 +8875,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8677,7 +8884,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8688,7 +8895,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8699,7 +8906,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8709,7 +8916,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8717,8 +8924,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -8726,7 +8956,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -8735,7 +8965,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -8744,7 +8974,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -8754,7 +8984,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8762,7 +8992,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8770,7 +9000,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8780,7 +9010,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8790,7 +9020,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -8799,7 +9029,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -8807,7 +9037,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8815,17 +9045,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8833,7 +9083,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8841,7 +9091,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8851,7 +9101,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8861,7 +9111,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -8870,7 +9120,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -8878,7 +9128,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8886,13 +9136,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -9003,10 +9273,10 @@ body, html {
     color: #209690; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -9015,7 +9285,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9024,7 +9294,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9033,7 +9303,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9044,7 +9314,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9055,7 +9325,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9065,7 +9335,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9073,8 +9343,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -9082,7 +9375,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -9091,7 +9384,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9100,7 +9393,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9110,7 +9403,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9118,7 +9411,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9126,7 +9419,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9136,7 +9429,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9146,7 +9439,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9155,7 +9448,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9163,7 +9456,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -9171,17 +9464,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9189,7 +9502,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9197,7 +9510,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9207,7 +9520,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9217,7 +9530,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9226,7 +9539,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9234,7 +9547,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -9242,13 +9555,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -9280,6 +9613,26 @@ body, html {
 .btn-buy-products {
   border-radius: 10px;
   color: #209690 !important;
+  margin-top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-style: none;
+  /* wp-Aqua */
+  background: var(#48E9E0); }
+
+.btn-error {
+  border-radius: 10px;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -9352,10 +9705,10 @@ body, html {
     border-radius: 40px; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -9364,7 +9717,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9373,7 +9726,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9382,7 +9735,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9393,7 +9746,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9404,7 +9757,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9414,7 +9767,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9422,8 +9775,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -9431,7 +9807,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -9440,7 +9816,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9449,7 +9825,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9459,7 +9835,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9467,7 +9843,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9475,7 +9851,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9485,7 +9861,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9495,7 +9871,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9504,7 +9880,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9512,7 +9888,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -9520,17 +9896,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9538,7 +9934,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9546,7 +9942,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9556,7 +9952,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9566,7 +9962,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9575,7 +9971,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9583,7 +9979,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -9591,13 +9987,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 body, html {
   font-family: 'Ubuntu', sans-serif;
@@ -9711,10 +10127,10 @@ body, html {
     margin: 2rem 0rem; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -9723,7 +10139,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9732,7 +10148,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9741,7 +10157,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9752,7 +10168,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9763,7 +10179,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9773,7 +10189,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9781,8 +10197,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -9790,7 +10229,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -9799,7 +10238,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -9808,7 +10247,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -9818,7 +10257,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9826,7 +10265,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9834,7 +10273,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9844,7 +10283,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9854,7 +10293,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -9863,7 +10302,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -9871,7 +10310,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -9879,17 +10318,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9897,7 +10356,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9905,7 +10364,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9915,7 +10374,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9925,7 +10384,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -9934,7 +10393,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9942,7 +10401,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -9950,13 +10409,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -10067,10 +10546,10 @@ body, html {
     color: #209690; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -10079,7 +10558,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10088,7 +10567,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10097,7 +10576,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10108,7 +10587,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10119,7 +10598,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10129,7 +10608,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10137,8 +10616,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -10146,7 +10648,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -10155,7 +10657,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10164,7 +10666,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10174,7 +10676,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10182,7 +10684,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10190,7 +10692,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10200,7 +10702,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10210,7 +10712,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10219,7 +10721,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10227,7 +10729,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -10235,17 +10737,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10253,7 +10775,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10261,7 +10783,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10271,7 +10793,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10281,7 +10803,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10290,7 +10812,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10298,7 +10820,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -10306,13 +10828,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -10344,6 +10886,26 @@ body, html {
 .btn-buy-products {
   border-radius: 10px;
   color: #209690 !important;
+  margin-top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-style: none;
+  /* wp-Aqua */
+  background: var(#48E9E0); }
+
+.btn-error {
+  border-radius: 10px;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -10416,10 +10978,10 @@ body, html {
     border-radius: 40px; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -10428,7 +10990,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10437,7 +10999,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10446,7 +11008,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10457,7 +11019,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10468,7 +11030,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10478,7 +11040,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10486,8 +11048,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -10495,7 +11080,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -10504,7 +11089,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10513,7 +11098,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10523,7 +11108,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10531,7 +11116,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10539,7 +11124,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10549,7 +11134,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10559,7 +11144,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10568,7 +11153,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10576,7 +11161,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -10584,17 +11169,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10602,7 +11207,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10610,7 +11215,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10620,7 +11225,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10630,7 +11235,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10639,7 +11244,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10647,7 +11252,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -10655,13 +11260,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 body, html {
   font-family: 'Ubuntu', sans-serif;
@@ -10721,10 +11346,10 @@ body, html {
     margin-top: 3rem; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -10733,7 +11358,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10742,7 +11367,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10751,7 +11376,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10762,7 +11387,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10773,7 +11398,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10783,7 +11408,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10791,8 +11416,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -10800,7 +11448,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -10809,7 +11457,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -10818,7 +11466,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -10828,7 +11476,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10836,7 +11484,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10844,7 +11492,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10854,7 +11502,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10864,7 +11512,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -10873,7 +11521,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -10881,7 +11529,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -10889,17 +11537,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10907,7 +11575,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10915,7 +11583,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10925,7 +11593,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10935,7 +11603,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -10944,7 +11612,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -10952,7 +11620,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -10960,13 +11628,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -11077,10 +11765,10 @@ body, html {
     color: #209690; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -11089,7 +11777,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11098,7 +11786,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11107,7 +11795,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11118,7 +11806,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11129,7 +11817,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11139,7 +11827,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11147,8 +11835,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -11156,7 +11867,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -11165,7 +11876,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11174,7 +11885,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11184,7 +11895,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -11192,7 +11903,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -11200,7 +11911,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -11210,7 +11921,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -11220,7 +11931,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -11229,7 +11940,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -11237,7 +11948,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -11245,17 +11956,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -11263,7 +11994,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -11271,7 +12002,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -11281,7 +12012,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -11291,7 +12022,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -11300,7 +12031,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -11308,7 +12039,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -11316,13 +12047,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -11354,6 +12105,26 @@ body, html {
 .btn-buy-products {
   border-radius: 10px;
   color: #209690 !important;
+  margin-top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-style: none;
+  /* wp-Aqua */
+  background: var(#48E9E0); }
+
+.btn-error {
+  border-radius: 10px;
+  color: #f2f2f2 !important;
   margin-top: 16px;
   font-family: Ubuntu;
   font-style: normal;
@@ -11426,10 +12197,10 @@ body, html {
     border-radius: 40px; } }
 
 * {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .single-prod-body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -11438,7 +12209,7 @@ body, html {
   opacity: 70%; }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11447,7 +12218,7 @@ body, html {
   color: #f2f2f2 !important; }
 
 .subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11456,7 +12227,7 @@ body, html {
   color: #38BEB7 !important; }
 
 .abt_mainTitles {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11467,7 +12238,7 @@ body, html {
   padding-top: 1rem; }
 
 .abt_mainSubtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11478,7 +12249,7 @@ body, html {
   padding-top: 1rem; }
 
 .prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11488,7 +12259,7 @@ body, html {
   color: #209690 !important; }
 
 .prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11496,8 +12267,31 @@ body, html {
   letter-spacing: 0.05em;
   color: #38BEB7 !important; }
 
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #209690; }
+
 .single-prod-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 30px;
@@ -11505,7 +12299,7 @@ body, html {
   color: #209690 !important; }
 
 .single-prod-price {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -11514,7 +12308,7 @@ body, html {
   opacity: 60%; }
 
 .single_prod_title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11523,7 +12317,7 @@ body, html {
   color: #209690 !important; }
 
 .single_prod_subtitle {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -11533,7 +12327,7 @@ body, html {
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -11541,7 +12335,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -11549,7 +12343,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -11559,7 +12353,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -11569,7 +12363,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 66px;
@@ -11578,7 +12372,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -11586,7 +12380,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -11594,17 +12388,37 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 1024px) {
   .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -11612,7 +12426,7 @@ body, html {
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
   .subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -11620,7 +12434,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .abt_mainTitles {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -11630,7 +12444,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .abt_mainSubtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -11640,7 +12454,7 @@ body, html {
     text-align: right;
     padding-top: 1rem; }
   .prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 96px;
@@ -11649,7 +12463,7 @@ body, html {
     text-align: right;
     color: #209690 !important; }
   .prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -11657,7 +12471,7 @@ body, html {
     letter-spacing: 0.01em;
     color: #38BEB7 !important; }
   .single_prod_title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -11665,13 +12479,33 @@ body, html {
     letter-spacing: 0.01em;
     color: #209690 !important; }
   .single_prod_subtitle {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #38BEB7 !important; } }
+    color: #38BEB7 !important; }
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; }
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #209690; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {

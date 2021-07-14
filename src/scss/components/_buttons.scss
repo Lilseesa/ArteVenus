@@ -66,6 +66,32 @@ $bold: 700;
     background: var($aqua-light-plus);
 }
 
+.btn-error{
+    border-radius: 10px;
+    color: $marmol !important;
+
+    margin-top: 16px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    border-style: none;
+
+    /* wp-Aqua */
+    background: var($aqua-light-plus);
+}
+
 @mixin button-text {
     font-family: 'Ubuntu', sans-serif;
     font-weight: $medium;

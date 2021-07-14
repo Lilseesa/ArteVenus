@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
-@import './color';
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
+@import "./color";
 
-*{
-    font-family: 'Ubuntu', sans-serif;
+* {
+  font-family: "Ubuntu", sans-serif;
 }
 
 //Fonts Weight
@@ -12,251 +12,320 @@ $medium: 500;
 $bold: 700;
 
 @mixin button-text {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: $medium;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    color: $aqua-dark !important;
-    font-size: 20px;
-    text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: $medium;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  color: $aqua-dark !important;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 @mixin section-title {
-    font-family: 'Oxygen', sans-serif;
-    font-style: $normal;
-    font-weight: $bold;
-    font-size: 30px;
-    line-height: 30px;
+  font-family: "Oxygen", sans-serif;
+  font-style: $normal;
+  font-weight: $bold;
+  font-size: 30px;
+  line-height: 30px;
 }
 @mixin section-titlev2 {
-    font-family: 'Oxygen', sans-serif;
-    font-style: $normal;
-    font-weight: $bold;
-    font-size: 36px;
-    line-height: 30px;
+  font-family: "Oxygen", sans-serif;
+  font-style: $normal;
+  font-weight: $bold;
+  font-size: 36px;
+  line-height: 30px;
 }
 
-@mixin body-text{
-    font-family: 'Oxygen', sans-serif;
-    font-style: $normal;
-    font-weight:  $bold;
-    font-size: 18px;
-    line-height: 30px;
+@mixin body-text {
+  font-family: "Oxygen", sans-serif;
+  font-style: $normal;
+  font-weight: $bold;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 @mixin h1-title-desktop {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: $normal;
-    font-weight: $bold;
-    font-size: 96px;
-    line-height: 80px;
-    letter-spacing: 0.05em;
+  font-family: "Ubuntu", sans-serif;
+  font-style: $normal;
+  font-weight: $bold;
+  font-size: 96px;
+  line-height: 80px;
+  letter-spacing: 0.05em;
 }
 
 @mixin h2-subtitle-desktop {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 64px;
-    line-height: 56px;
-    letter-spacing: 0.01em;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 64px;
+  line-height: 56px;
+  letter-spacing: 0.01em;
 }
 
-
-@mixin h1-title-iPadPro{
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 66px;
-    line-height: 76px;
-    letter-spacing: 0.01em;
-    
+@mixin h1-title-iPadPro {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 66px;
+  line-height: 76px;
+  letter-spacing: 0.01em;
 }
 
-@mixin h2-subtitle-iPadPro{
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 44px;
-    line-height: 50px;
-    letter-spacing: 0.05em;
+@mixin h2-subtitle-iPadPro {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 44px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
 }
 
 @mixin h1-title-phone {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 36px;
-    line-height: 32px;
-    letter-spacing: 0.01em;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
 }
 
 @mixin h2-subtitle-phone {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 24px;
-    line-height: 16px;
-    letter-spacing: 0.05em;
-    
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
 }
 
-.single-prod-body{
-    @include body-text;
-    color: $aqua-dark;
-    opacity: 70%;
+.single-prod-body {
+  @include body-text;
+  color: $aqua-dark;
+  opacity: 70%;
 }
 
-.title{
-    @include h1-title-phone;
-    color: $marmol !important;
+.title {
+  @include h1-title-phone;
+  color: $marmol !important;
 }
-.subtitle{
-    @include h2-subtitle-phone;
-    color: $aqua !important;
+.subtitle {
+  @include h2-subtitle-phone;
+  color: $aqua !important;
 }
 
 //About Titles
-.abt_mainTitles{
-    @include h1-title-phone;
-    color: $aqua-dark !important;
-    text-align: right;
-    padding-top: 1rem;
+.abt_mainTitles {
+  @include h1-title-phone;
+  color: $aqua-dark !important;
+  text-align: right;
+  padding-top: 1rem;
 }
-.abt_mainSubtitle{
-    @include h2-subtitle-phone;
-    color: $aqua-dark !important;
-    text-align: right;
-    padding-top: 1rem;
+.abt_mainSubtitle {
+  @include h2-subtitle-phone;
+  color: $aqua-dark !important;
+  text-align: right;
+  padding-top: 1rem;
 }
 
 // Produsts Titles
-.prod_title{
-    @include h1-title-phone;
-    text-align: right;
-    color: $aqua-dark !important;
+.prod_title {
+  @include h1-title-phone;
+  text-align: right;
+  color: $aqua-dark !important;
 }
 
-.prod_subtitle{
-    @include h2-subtitle-phone;
-    color: $aqua !important;
+.prod_subtitle {
+  @include h2-subtitle-phone;
+  color: $aqua !important;
+}
+
+.error_title {
+  margin-top: 1rem;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: $aqua-dark;
+}
+
+.error_subTitles {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: $aqua-dark;
 }
 
 // Single Produst Titles
 
-.single-prod-section-title{
-    @include section-title;
-    color: $aqua-dark !important;
+.single-prod-section-title {
+  @include section-title;
+  color: $aqua-dark !important;
 }
-.single-prod-price{
-    @include section-titlev2;
-    color: $aqua-dark !important;
-    opacity: 60%;
+.single-prod-price {
+  @include section-titlev2;
+  color: $aqua-dark !important;
+  opacity: 60%;
 }
-.single_prod_title{
-    @include h1-title-phone;
-    color: $aqua-dark !important; 
+.single_prod_title {
+  @include h1-title-phone;
+  color: $aqua-dark !important;
 }
 
-.single_prod_subtitle{
-    @include h2-subtitle-phone;
-    color: $aqua !important;
+.single_prod_subtitle {
+  @include h2-subtitle-phone;
+  color: $aqua !important;
 }
 
 @media only screen and (min-width: 768px) {
-    .title{
-        @include h1-title-iPadPro;
-        color: $aqua !important;
-    }
-    .subtitle{
-        @include h2-subtitle-iPadPro;
-        color: $aqua !important;
-    }
+  .title {
+    @include h1-title-iPadPro;
+    color: $aqua !important;
+  }
+  .subtitle {
+    @include h2-subtitle-iPadPro;
+    color: $aqua !important;
+  }
 
-    //About Titles
-    .abt_mainTitles{
-        @include h1-title-iPadPro;
-        color: $aqua-dark !important;
-        text-align: right;
-        padding-top: 1rem;
-    }
-    .abt_mainSubtitle{
-        @include h2-subtitle-iPadPro;
-        color: $aqua-dark !important;
-        text-align: right;
-        padding-top: 1rem;
-    }
+  //About Titles
+  .abt_mainTitles {
+    @include h1-title-iPadPro;
+    color: $aqua-dark !important;
+    text-align: right;
+    padding-top: 1rem;
+  }
+  .abt_mainSubtitle {
+    @include h2-subtitle-iPadPro;
+    color: $aqua-dark !important;
+    text-align: right;
+    padding-top: 1rem;
+  }
 
-    //Products Title
-    .prod_title{
-        @include h1-title-iPadPro;
-        text-align: right;
-        color: $aqua-dark !important;
-    }
-    
-    .prod_subtitle{
-        @include h2-subtitle-iPadPro;
-        color: $aqua !important;
-    }
-    // Single Produst Titles
-    .single_prod_title{
-        @include h1-title-phone;
-        color: $aqua-dark !important; 
-    }
+  //Products Title
+  .prod_title {
+    @include h1-title-iPadPro;
+    text-align: right;
+    color: $aqua-dark !important;
+  }
 
-    .single_prod_subtitle{
-        @include h2-subtitle-phone;
-        color: $aqua !important;
-    }
-    
+  .prod_subtitle {
+    @include h2-subtitle-iPadPro;
+    color: $aqua !important;
+  }
+  // Single Produst Titles
+  .single_prod_title {
+    @include h1-title-phone;
+    color: $aqua-dark !important;
+  }
 
+  .single_prod_subtitle {
+    @include h2-subtitle-phone;
+    color: $aqua !important;
+  }
+
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: $aqua-dark;
+  }
+
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: $aqua-dark;
+  }
 }
+
 @media only screen and (min-width: 1024px) {
-    .title{
-        @include h1-title-desktop();
-        color: $marmol !important;
-    }
-    .subtitle{
-        @include h2-subtitle-desktop();
-        color: $aqua !important;
-    }
-    //About Titles
-    .abt_mainTitles{
-        @include h1-title-desktop;
-        color: $aqua-dark !important;
-        text-align: right;
-        padding-top: 1rem;
-    }
-    .abt_mainSubtitle{
-        @include h2-subtitle-desktop;
-        color: $aqua-dark !important;
-        text-align: right;
-        padding-top: 1rem;
-    }
+  .title {
+    @include h1-title-desktop();
+    color: $marmol !important;
+  }
+  .subtitle {
+    @include h2-subtitle-desktop();
+    color: $aqua !important;
+  }
+  //About Titles
+  .abt_mainTitles {
+    @include h1-title-desktop;
+    color: $aqua-dark !important;
+    text-align: right;
+    padding-top: 1rem;
+  }
+  .abt_mainSubtitle {
+    @include h2-subtitle-desktop;
+    color: $aqua-dark !important;
+    text-align: right;
+    padding-top: 1rem;
+  }
 
-    // Produsts Titles
-    .prod_title{
-        @include h1-title-desktop;
-        text-align: right;
-        color: $aqua-dark !important;
-    }
-    
-    .prod_subtitle{
-        @include h2-subtitle-desktop;
-        color: $aqua !important;
-    }
+  // Produsts Titles
+  .prod_title {
+    @include h1-title-desktop;
+    text-align: right;
+    color: $aqua-dark !important;
+  }
 
-    // Single Produst Titles
-    .single_prod_title{
-        @include h1-title-phone;
-        color: $aqua-dark !important; 
-    }
+  .prod_subtitle {
+    @include h2-subtitle-desktop;
+    color: $aqua !important;
+  }
 
-    .single_prod_subtitle{
-        @include h2-subtitle-phone;
-        color: $aqua !important;
-    }
+  // Single Produst Titles
+  .single_prod_title {
+    @include h1-title-phone;
+    color: $aqua-dark !important;
+  }
+
+  .single_prod_subtitle {
+    @include h2-subtitle-phone;
+    color: $aqua !important;
+  }
+
+  .error_title {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: $aqua-dark;
+  }
+
+  .error_subTitles {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: $aqua-dark;
+  }
 }
