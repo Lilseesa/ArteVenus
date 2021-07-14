@@ -13768,7 +13768,7 @@ body, html {
 .woocommerce-loop-product__title {
   color: #f2f2f2; }
 
-.attachment-woocommerce_thumbnail {
+.woocommerce_placeholder {
   border-radius: 30px; }
 
 @media only screen and (min-width: 768px) {
