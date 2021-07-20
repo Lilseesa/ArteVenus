@@ -37,7 +37,7 @@ get_header(); ?>
                     <!-- Our Products Title -->
                     <h1 class="title text-center my-2 py-2"> Our products</h1>
                     <!-- Our Products Title -->
-                        <?php echo do_shortcode( '[recent_products columns=3 limit=3 category=Accessories]' )?>
+                    <?php echo do_shortcode( '[products columns=3 limit=6]' )?>
                         <!-- Product Card -->
                     </div>
                 </div>
