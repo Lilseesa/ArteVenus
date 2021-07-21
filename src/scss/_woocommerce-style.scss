@@ -5,21 +5,118 @@
 @import "./components/fonts";
 
 .woocommerce-loop-product__title{
-    color: $marmol !important;
+    color: $aqua-dark !important;
   }
   
   .woocommerce_placeholder{
-    border-radius: 30px;
+    border-radius: 15px;
+  }
+
+  .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product{
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s;
+  }
+
+  .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px #8888885e !important;
   }
   
   .woocommerce img, .woocommerce-page img{
-    border-radius: 30px;
+    border-radius: 15px;
   }
   
   .woocommerce ul.products li.product .price{
-    color: $marmol !important;
+    color: $aqua-dark !important;
   }
 
   .woocommerce ul.products li.product .button{
-    @include button-text;
+    @include button-rounded-filled;
+    font-size: 12px !important;
+    line-height: 1rem !important;
   }
+
+  .woocommerce ul.products li.product .button:hover {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: $medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    color: $marmol !important;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: $aqua !important;
+  }
+
+  .woocommerce .products ul, .woocommerce ul.products{
+    margin: 3rem 0 1em;
+  }
+
+  .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    border-radius: 10px;
+    color: $marmol !important;
+
+    margin-top: 16px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    border-style: none;
+
+    /* wp-Aqua */
+    background-color: $aqua-dark; 
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: $aqua; 
+}
+
+.site-main {
+  margin: 1rem 5rem !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .woocommerce ul.products li.product .button{
+    font-size: 16px !important;
+  }
+
+  .woocommerce_placeholder{
+    border-radius: 20px;
+  }
+
+  .woocommerce img, .woocommerce-page img{
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .woocommerce ul.products li.product .button{
+    @include button-rounded-filled;
+  }
+
+  .woocommerce_placeholder{
+    border-radius: 30px;
+  }
+
+  .woocommerce img, .woocommerce-page img{
+    border-radius: 30px;
+  }
+}

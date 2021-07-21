@@ -111,6 +111,12 @@ $bold: 700;
   @include h1-title-phone;
   color: $marmol !important;
 }
+
+.title-index {
+  @include h1-title-phone;
+  color: $aqua-dark !important;
+}
+
 .subtitle {
   @include h2-subtitle-phone;
   color: $aqua !important;
@@ -191,8 +197,14 @@ $bold: 700;
 @media only screen and (min-width: 768px) {
   .title {
     @include h1-title-iPadPro;
-    color: $aqua !important;
+    color: $marmol !important;
   }
+
+  .title-index{
+    @include h1-title-iPadPro;
+    color: $aqua-dark !important;
+  }
+
   .subtitle {
     @include h2-subtitle-iPadPro;
     color: $aqua !important;
@@ -263,6 +275,10 @@ $bold: 700;
   .title {
     @include h1-title-desktop();
     color: $marmol !important;
+  }
+  .title-index{
+    @include h1-title-desktop();
+    color: $aqua-dark !important;
   }
   .subtitle {
     @include h2-subtitle-desktop();

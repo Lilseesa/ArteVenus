@@ -7628,6 +7628,15 @@ textarea.form-control-lg {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -7744,7 +7753,15 @@ textarea.form-control-lg {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -7836,6 +7853,14 @@ textarea.form-control-lg {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -8047,6 +8072,15 @@ textarea.form-control-lg {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -8163,7 +8197,15 @@ textarea.form-control-lg {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -8255,6 +8297,14 @@ textarea.form-control-lg {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -8404,6 +8454,9 @@ textarea.form-control-lg {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
+.button-rounded-filled:hover {
+  background: #38BEB7 !important; }
+
 .nice-number button {
   margin: 4px 0;
   border-radius: 4px;
@@ -8431,29 +8484,6 @@ textarea.form-control-lg {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  border-radius: 10px;
-  color: #f2f2f2 !important;
-  margin-top: 16px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  border-style: none;
-  /* wp-Aqua */
-  background-color: #209690; }
-
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-  background-color: #38BEB7; }
-
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
     border-radius: 40px; } }
@@ -8478,6 +8508,15 @@ textarea.form-control-lg {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -8595,7 +8634,15 @@ textarea.form-control-lg {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -8687,6 +8734,14 @@ textarea.form-control-lg {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -8857,7 +8912,7 @@ body, html {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  background: #38BEB7 !important;
+  background: #209690 !important;
   border-radius: 10px; }
 
 .border-image-radius {
@@ -8887,6 +8942,15 @@ body, html {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -9004,7 +9068,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -9096,6 +9168,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -9307,6 +9387,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -9423,7 +9512,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -9515,6 +9612,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -9664,6 +9769,9 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
+.button-rounded-filled:hover {
+  background: #38BEB7 !important; }
+
 .nice-number button {
   margin: 4px 0;
   border-radius: 4px;
@@ -9691,29 +9799,6 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  border-radius: 10px;
-  color: #f2f2f2 !important;
-  margin-top: 16px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  border-style: none;
-  /* wp-Aqua */
-  background-color: #209690; }
-
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-  background-color: #38BEB7; }
-
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
     border-radius: 40px; } }
@@ -9738,6 +9823,15 @@ body, html {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -9855,7 +9949,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -9947,6 +10049,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -10161,6 +10271,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -10277,7 +10396,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -10369,6 +10496,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -10580,6 +10715,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -10696,7 +10840,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -10788,6 +10940,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -10937,6 +11097,9 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
+.button-rounded-filled:hover {
+  background: #38BEB7 !important; }
+
 .nice-number button {
   margin: 4px 0;
   border-radius: 4px;
@@ -10964,29 +11127,6 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  border-radius: 10px;
-  color: #f2f2f2 !important;
-  margin-top: 16px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  border-style: none;
-  /* wp-Aqua */
-  background-color: #209690; }
-
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-  background-color: #38BEB7; }
-
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
     border-radius: 40px; } }
@@ -11011,6 +11151,15 @@ body, html {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -11128,7 +11277,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -11220,6 +11377,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -11380,6 +11545,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -11496,7 +11670,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -11588,6 +11770,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -11799,6 +11989,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -11915,7 +12114,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -12007,6 +12214,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -12156,6 +12371,9 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
+.button-rounded-filled:hover {
+  background: #38BEB7 !important; }
+
 .nice-number button {
   margin: 4px 0;
   border-radius: 4px;
@@ -12183,29 +12401,6 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  border-radius: 10px;
-  color: #f2f2f2 !important;
-  margin-top: 16px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  border-style: none;
-  /* wp-Aqua */
-  background-color: #209690; }
-
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-  background-color: #38BEB7; }
-
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
     border-radius: 40px; } }
@@ -12230,6 +12425,15 @@ body, html {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -12347,7 +12551,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -12439,6 +12651,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -12594,6 +12814,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -12710,7 +12939,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -12802,6 +13039,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -13013,6 +13258,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -13129,7 +13383,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -13221,6 +13483,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -13370,6 +13640,9 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
+.button-rounded-filled:hover {
+  background: #38BEB7 !important; }
+
 .nice-number button {
   margin: 4px 0;
   border-radius: 4px;
@@ -13397,29 +13670,6 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  border-radius: 10px;
-  color: #f2f2f2 !important;
-  margin-top: 16px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  border-style: none;
-  /* wp-Aqua */
-  background-color: #209690; }
-
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-  background-color: #38BEB7; }
-
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
     border-radius: 40px; } }
@@ -13444,6 +13694,15 @@ body, html {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -13561,7 +13820,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -13653,6 +13920,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -13818,6 +14093,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -13934,7 +14218,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -14026,6 +14318,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -14237,6 +14537,15 @@ body, html {
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
 
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
+
 .subtitle {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -14353,7 +14662,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -14445,6 +14762,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -14594,6 +14919,9 @@ body, html {
   /* wp-Aqua */
   background: var(#48E9E0); }
 
+.button-rounded-filled:hover {
+  background: #38BEB7 !important; }
+
 .nice-number button {
   margin: 4px 0;
   border-radius: 4px;
@@ -14621,29 +14949,6 @@ body, html {
   background-color: #f2f2f2;
   transition: 0.2s; }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  border-radius: 10px;
-  color: #f2f2f2 !important;
-  margin-top: 16px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  border-style: none;
-  /* wp-Aqua */
-  background-color: #209690; }
-
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-  background-color: #38BEB7; }
-
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
     border-radius: 40px; } }
@@ -14668,6 +14973,15 @@ body, html {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #f2f2f2 !important; }
+
+.title-index {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #209690 !important; }
 
 .subtitle {
   font-family: "Ubuntu", sans-serif;
@@ -14785,7 +15099,15 @@ body, html {
     font-size: 66px;
     line-height: 76px;
     letter-spacing: 0.01em;
-    color: #38BEB7 !important; }
+    color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -14877,6 +15199,14 @@ body, html {
     line-height: 80px;
     letter-spacing: 0.05em;
     color: #f2f2f2 !important; }
+  .title-index {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #209690 !important; }
   .subtitle {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -14960,26 +15290,112 @@ body, html {
     color: #209690; } }
 
 .woocommerce-loop-product__title {
-  color: #f2f2f2 !important; }
+  color: #209690 !important; }
 
 .woocommerce_placeholder {
-  border-radius: 30px; }
+  border-radius: 15px; }
+
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.3s; }
+
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 1px 1px 10px #8888885e !important; }
 
 .woocommerce img, .woocommerce-page img {
-  border-radius: 30px; }
+  border-radius: 15px; }
 
 .woocommerce ul.products li.product .price {
-  color: #f2f2f2 !important; }
+  color: #209690 !important; }
 
 .woocommerce ul.products li.product .button {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
-  color: #209690 !important;
+  color: #f2f2f2 !important;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #209690 !important;
+  border-radius: 10px;
+  font-size: 12px !important;
+  line-height: 1rem !important; }
+
+.woocommerce ul.products li.product .button:hover {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  color: #f2f2f2 !important;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #38BEB7 !important; }
+
+.woocommerce .products ul, .woocommerce ul.products {
+  margin: 3rem 0 1em; }
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  border-radius: 10px;
+  color: #f2f2f2 !important;
+  margin-top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
-  text-transform: uppercase; }
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-style: none;
+  /* wp-Aqua */
+  background-color: #209690; }
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #38BEB7; }
+
+.site-main {
+  margin: 1rem 5rem !important; }
+
+@media only screen and (min-width: 768px) {
+  .woocommerce ul.products li.product .button {
+    font-size: 16px !important; }
+  .woocommerce_placeholder {
+    border-radius: 20px; }
+  .woocommerce img, .woocommerce-page img {
+    border-radius: 20px; } }
+
+@media only screen and (min-width: 1280px) {
+  .woocommerce ul.products li.product .button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    color: #f2f2f2 !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #209690 !important;
+    border-radius: 10px; }
+  .woocommerce_placeholder {
+    border-radius: 30px; }
+  .woocommerce img, .woocommerce-page img {
+    border-radius: 30px; } }
 
