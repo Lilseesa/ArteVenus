@@ -38,8 +38,9 @@ html {
 
 .text{
   position: relative;
-  width: 50%;
-  left: 17%;
+  width: 75%;
+  left: 1rem;
+  font-size: 12px !important;
 }
 
 .btn-footer{
@@ -60,8 +61,12 @@ html {
   }
   .text{
     position: relative;
-    width: 35%;
+    width: 55%;
     left: 5%;
+    font-size: 18px !important;
+  }
+  .site-footer{
+    width: 106%;
   }
 }
 
@@ -79,6 +84,11 @@ html {
   .text{
     position: relative;
     width: 30%;
-    left: 17%;
+    left: 16%;
+    font-size: 22px !important;
+  }
+
+  .site-footer{
+    width: 100%;
   }
 }
