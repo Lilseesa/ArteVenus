@@ -1,0 +1,25 @@
+@import "./components/card";
+@import "./components/color";
+@import "./components/buttons";
+@import "./components/border";
+@import "./components/fonts";
+
+.woocommerce-loop-product__title{
+    color: $marmol !important;
+  }
+  
+  .woocommerce_placeholder{
+    border-radius: 30px;
+  }
+  
+  .woocommerce img, .woocommerce-page img{
+    border-radius: 30px;
+  }
+  
+  .woocommerce ul.products li.product .price{
+    color: $marmol !important;
+  }
+
+  .woocommerce ul.products li.product .button{
+    @include button-text;
+  }
