@@ -8392,14 +8392,14 @@ textarea.form-control-lg {
     border-radius: 40px; } }
 
 .btn-buy {
-  border-radius: 10px;
+  border-radius: 6px;
   color: var(#f2f2f2);
-  margin-top: 16px;
+  margin-top: 8px;
   transition: 0.2s;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -8407,7 +8407,7 @@ textarea.form-control-lg {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 4px 10px;
   border-style: none;
   /* wp-Aqua */
   background: var(#48E9E0);
@@ -8483,6 +8483,22 @@ textarea.form-control-lg {
   color: #209690;
   background-color: #f2f2f2;
   transition: 0.2s; }
+
+@media only screen and (min-width: 768px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
+
+@media only screen and (min-width: 1280px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -9707,14 +9723,14 @@ body, html {
     border-radius: 40px; } }
 
 .btn-buy {
-  border-radius: 10px;
+  border-radius: 6px;
   color: var(#f2f2f2);
-  margin-top: 16px;
+  margin-top: 8px;
   transition: 0.2s;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -9722,7 +9738,7 @@ body, html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 4px 10px;
   border-style: none;
   /* wp-Aqua */
   background: var(#48E9E0);
@@ -9798,6 +9814,22 @@ body, html {
   color: #209690;
   background-color: #f2f2f2;
   transition: 0.2s; }
+
+@media only screen and (min-width: 768px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
+
+@media only screen and (min-width: 1280px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -11035,14 +11067,14 @@ body, html {
     border-radius: 40px; } }
 
 .btn-buy {
-  border-radius: 10px;
+  border-radius: 6px;
   color: var(#f2f2f2);
-  margin-top: 16px;
+  margin-top: 8px;
   transition: 0.2s;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -11050,7 +11082,7 @@ body, html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 4px 10px;
   border-style: none;
   /* wp-Aqua */
   background: var(#48E9E0);
@@ -11126,6 +11158,22 @@ body, html {
   color: #209690;
   background-color: #f2f2f2;
   transition: 0.2s; }
+
+@media only screen and (min-width: 768px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
+
+@media only screen and (min-width: 1280px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -12309,14 +12357,14 @@ body, html {
     border-radius: 40px; } }
 
 .btn-buy {
-  border-radius: 10px;
+  border-radius: 6px;
   color: var(#f2f2f2);
-  margin-top: 16px;
+  margin-top: 8px;
   transition: 0.2s;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -12324,7 +12372,7 @@ body, html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 4px 10px;
   border-style: none;
   /* wp-Aqua */
   background: var(#48E9E0);
@@ -12400,6 +12448,22 @@ body, html {
   color: #209690;
   background-color: #f2f2f2;
   transition: 0.2s; }
+
+@media only screen and (min-width: 768px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
+
+@media only screen and (min-width: 1280px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -13578,14 +13642,14 @@ body, html {
     border-radius: 40px; } }
 
 .btn-buy {
-  border-radius: 10px;
+  border-radius: 6px;
   color: var(#f2f2f2);
-  margin-top: 16px;
+  margin-top: 8px;
   transition: 0.2s;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -13593,7 +13657,7 @@ body, html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 4px 10px;
   border-style: none;
   /* wp-Aqua */
   background: var(#48E9E0);
@@ -13669,6 +13733,22 @@ body, html {
   color: #209690;
   background-color: #f2f2f2;
   transition: 0.2s; }
+
+@media only screen and (min-width: 768px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
+
+@media only screen and (min-width: 1280px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {
@@ -14864,14 +14944,14 @@ body, html {
     border-radius: 40px; } }
 
 .btn-buy {
-  border-radius: 10px;
+  border-radius: 6px;
   color: var(#f2f2f2);
-  margin-top: 16px;
+  margin-top: 8px;
   transition: 0.2s;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -14879,7 +14959,7 @@ body, html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 4px 10px;
   border-style: none;
   /* wp-Aqua */
   background: var(#48E9E0);
@@ -14955,6 +15035,22 @@ body, html {
   color: #209690;
   background-color: #f2f2f2;
   transition: 0.2s; }
+
+@media only screen and (min-width: 768px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
+
+@media only screen and (min-width: 1280px) {
+  .btn-buy {
+    border-radius: 10px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 8px 16px; } }
 
 @media only screen and (min-width: 768px) {
   .hm_boder-radius-section {

@@ -9,16 +9,16 @@ $bold: 700;
 
 .btn-buy{
 
-    border-radius: 10px;
+    border-radius: 6px;
     color: var($marmol);
 
-    margin-top: 16px;
+    margin-top: 8px;
     transition: 0.2s;
 
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 23px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -27,7 +27,7 @@ $bold: 700;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 4px 10px;
 
     border-style: none;
 
@@ -179,4 +179,25 @@ $bold: 700;
     color: $aqua-dark;
     background-color: $marmol;
     transition: 0.2s;
+}
+
+@media only screen and (min-width: 768px) {
+    .btn-buy{
+        border-radius: 10px;
+        margin-top: 12px;
+        transition: 0.2s;
+        font-size: 20px;
+        padding: 8px 16px;    
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .btn-buy{
+        border-radius: 10px;
+        margin-top: 16px;
+        transition: 0.2s;
+        font-size: 20px;
+        padding: 8px 16px;    
+    }
 }
