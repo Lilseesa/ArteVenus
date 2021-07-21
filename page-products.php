@@ -49,6 +49,7 @@ while( have_posts() ) : the_post(); ?>
                     <div class="prod_containerHeader">
                         <h1 class="prod_elements prod_subtitle">All products</h1>
                     </div>
+                    <?php echo do_shortcode('[ivory-search id="118" title="Default Search Form"]')?>
                 </div>
             </div>
         </div>
