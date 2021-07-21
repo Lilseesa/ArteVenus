@@ -28,8 +28,7 @@ while( have_posts() ) : the_post(); ?> -->
           <!-- Contact us Title -->
 
           <div class="ct_containerHeader">
-            <h1 class="ct_elements ct_title title">Tell</h1>
-            <h2 class="ct_elements ct_subtitle title">us</h2>  
+            <h1 class="ct_elements ct_title title">Dinos</h1>
           </div>
 
       </div>
