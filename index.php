@@ -24,7 +24,7 @@ get_header(); ?>
                     <div class="col-lg-6 position-absolute top-50  ms-5">
                         <H1 class="title">Handmade</H1>
                         <h2 class="subtitle">souvernir</h2>
-                        <button href="products" type="button" class="btn-buy button-rounded-filled">Start Buying</button>
+                        <button href="https://dev-arte-venus.pantheonsite.io/products/" type="button" class="btn-buy button-rounded-filled">Start Buying</button>
                     </div>
                     <!-- Title, Subtitle, CTA -->
                 </div>
@@ -37,7 +37,7 @@ get_header(); ?>
                     <!-- Our Products Title -->
                     <h1 class="title-index text-center my-2 py-2"> Our products</h1>
                     <!-- Our Products Title -->
-                    <?php echo do_shortcode( '[products columns=3 limit=6]' )?>
+                    <?php echo do_shortcode( '[products columns=2 limit=6]' )?>
                         <!-- Product Card -->
                     </div>
                 </div>

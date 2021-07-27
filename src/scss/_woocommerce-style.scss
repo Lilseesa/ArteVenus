@@ -14,7 +14,7 @@
 
 .woocommerce-page.columns-3 ul.products li.product,
 .woocommerce.columns-3 ul.products li.product {
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 10px;
   transition: 0.3s;
 }
@@ -116,20 +116,9 @@
 }
 
 .woocommerce ul.products li.product a img{
-  width: 300px !important;
-  height: 300px !important;
+  width: 100px !important;
+  height: 100px !important;
 }
-
-.row {
-  --bs-gutter-x: 1.5rem !important;
-  --bs-gutter-y: 0 !important;
-  display: flex !important;
-  flex-wrap: wrap !important;
-  margin-top: calc(var(--bs-gutter-y) * -1) !important;
-  margin-right: calc(var(--bs-gutter-x)/ -2) !important;
-  margin-left: calc(var(--bs-gutter-x)/ -2) !important;
-}
-
 
 .woocommerce ul.products li.product .button, .woocommerce div.product form.cart .button {
     @include button-rounded-filled;
@@ -312,12 +301,22 @@
     border-radius: 5px !important;
     margin: 0 !important;
   }
+
+  .woocommerce ul.products li.product a img{
+    width: 370px !important;
+    height: 370px !important;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
   .woocommerce ul.products li.product .button,
   .woocommerce div.product form.cart .button {
     @include button-rounded-filled;
+  }
+
+  .woocommerce ul.products li.product a img{
+    width: 600px !important;
+    height: 600px !important;
   }
 
   .woocommerce_placeholder {
