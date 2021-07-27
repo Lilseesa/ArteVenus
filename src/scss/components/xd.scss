@@ -83,6 +83,7 @@
   @include button-rounded-filled;
   font-size: 10px !important;
   line-height: 1rem !important;
+  width: 10rem !important;
 }
 
 .woocommerce div.product form.cart .button {
@@ -115,20 +116,12 @@
   background: $aqua !important;
 }
 
-.woocommerce ul.products li.product a img{
-  width: 300px !important;
-  height: 300px !important;
-}
-
 .woocommerce ul.products li.product .button, .woocommerce div.product form.cart .button {
     @include button-rounded-filled;
     font-size: 12px !important;
     line-height: 1rem !important;
   }
-  .woocommerce ul.products li.product .button, .woocommerce div.product form.cart .button:hover {
-    @include button-rounded-filled;
-    background: $aqua !important;
-  }
+  
   .woocommerce div.product form.cart .button{
     margin-left: 2rem;
   }
