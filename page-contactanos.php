@@ -28,7 +28,7 @@ while( have_posts() ) : the_post(); ?> -->
           <!-- Contact us Title -->
 
           <div class="ct_containerHeader">
-            <h1 class="ct_elements ct_title title">Dinos</h1>
+            <h1 class="ct_elements ct_title title">Contactanos</h1>
           </div>
 
       </div>
@@ -36,7 +36,7 @@ while( have_posts() ) : the_post(); ?> -->
       <div class="row">
         <!-- info -->
         <div class="ct_containerText">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Envíanos un correo electrónico desde el siguiente formulario, utilícelo si tiene un problema con pagos en la página o si desea información adicional sobre algunos de nuestros productos</p>
         </div>
       </div>
     </div>

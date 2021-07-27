@@ -17,7 +17,7 @@ get_header(); ?>
                 <div class="col-lg-12 position-relative">
 
                     <!-- Image -->
-                    <img fill="#31777B" style="mix-blend-mode:multiply" src="https://images.unsplash.com/photo-1548588681-adf41d474533?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=cover&w=1355&q=80" class="img-fluid border-image-radius" alt="...">
+                    <img fill="#31777B" style="mix-blend-mode:multiply" src="https://www.wallpaperbetter.com/wallpaper/621/745/302/monteverde-cloud-forest-preserve-costa-rica-1080P-wallpaper.jpg" class="img-fluid border-image-radius" alt="...">
                     <!-- Image -->
 
                     <!-- Title, Subtitle, CTA -->

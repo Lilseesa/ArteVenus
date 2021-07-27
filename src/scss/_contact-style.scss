@@ -89,10 +89,12 @@ body, html {
 
 .button-send{
     @include button-rounded-filledv2;
+    font-weight: 500 !important;
 }
 
 .button-send:hover{
-    box-shadow: 1px 1px 10px #000000;
+    background: $aqua !important;
+    color: $marmol !important;
 }
 
 .hm_boder-radius-section{

@@ -38,7 +38,7 @@ while( have_posts() ) : the_post(); ?> -->
       <div class="row">
         <!-- info -->
         <div class="ct_containerText">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Send us an email with the form below, use this if you have an issue with some payment in the page or if you want extra information about some of our products</p>
         </div>
       </div>
     </div>
