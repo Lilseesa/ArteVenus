@@ -120,6 +120,17 @@
   height: 300px !important;
 }
 
+.row {
+  --bs-gutter-x: 1.5rem !important;
+  --bs-gutter-y: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-top: calc(var(--bs-gutter-y) * -1) !important;
+  margin-right: calc(var(--bs-gutter-x)/ -2) !important;
+  margin-left: calc(var(--bs-gutter-x)/ -2) !important;
+}
+
+
 .woocommerce ul.products li.product .button, .woocommerce div.product form.cart .button {
     @include button-rounded-filled;
     font-size: 12px !important;
